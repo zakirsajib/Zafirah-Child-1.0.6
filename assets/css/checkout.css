@@ -1,0 +1,6 @@
+@media (min-width: 1200px){#hypermarket-header{top:0; position: absolute}}
+#geo-top-bar-wrapper,
+.main-navigation,
+.toolbar,
+.footer .column .widget,
+.footer .column:nth-of-type(even){display: none}

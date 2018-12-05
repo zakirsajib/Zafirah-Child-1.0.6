@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Zafirah Regular';
+    src: url('../fonts/hvd_fonts_-_brandontext-regular-webfont.woff2') format('woff2'),
+         url('../fonts/hvd_fonts_-_brandontext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Zafirah Bold';
+    src: url('../fonts/hvd_fonts_-_brandontext-bold-webfont.woff2') format('woff2'),
+         url('../fonts/hvd_fonts_-_brandontext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.site-logo{
+	font-family: 'Zafirah Bold';
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #393939;
+}
+body{color:#393939;}
+ul{ list-style-type: none}
+.main-navigation>.menu>li>a{ font-family: 'Zafirah Bold';color: #393939;}
+.navbar-search-box,
+.toolbar .inner>a>.material-icons.close {display:none}
+.toolbar .inner .cart-btn>a{line-height:0;padding:0}
+
+
+.toolbar .inner > a, 
+.toolbar .inner .cart-btn > a{ line-height: 0;}
+.scroll-nav .toolbar .inner > a, 
+.scroll-nav .toolbar .inner .cart-btn > a{ line-height: 0;}
+
+.toolbar .inner>a.mobile-menu-toggle{
+	line-height: 1;
+}
+
+
+@media (max-width: 767px){
+
+/*------------------- Loader ------------*/
+
+	.loader {
+	  position: fixed;
+	  left: 0;
+	  right: 0;
+	  top: 0;
+	  bottom: 0;
+	  z-index: 9999;
+	  background: #ededed;
+	  overflow: hidden;
+	}
+	.spinner {
+	  position: relative;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  height: 100vh;
+	}
+	.default-loader {
+	  border: 4px solid #f3f3f3;
+	  border-radius: 50%;
+	  border-top: 4px solid #F7522F;
+	  width: 50px;
+	  height: 50px;
+	  -webkit-animation: spin 2s linear infinite; /* Safari */
+	  animation: spin 2s linear infinite;
+	}
+	
+	/* Safari */
+	@-webkit-keyframes spin {
+	  0% { -webkit-transform: rotate(0deg); }
+	  100% { -webkit-transform: rotate(360deg); }
+	}
+	
+	@keyframes spin {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+	}
+/*------- End -----*/
+}
+@media (min-width: 1200px){
+	#geo-top-bar-wrapper {
+	    background-color: #e1261c;
+	    border-bottom: 1px solid #e1261c;
+	    padding-top: 0;
+	    padding-bottom: 0;
+	    background-repeat: repeat;
+	    background-size: auto;
+	    background-position: center center;
+	    background-attachment: scroll;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    height: 27px;
+	    z-index: 99;
+	}
+	#geo-top-bar-wrapper .geo-top-bar-content {
+	    max-width: 1170px;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	} 
+	#geo-top-bar-wrapper {
+		position: fixed;
+	}
+	#geo-top-bar-wrapper .geo-top-bar-content {
+	    text-align: center;
+	    display: block;
+	    margin: 0 auto;
+	}
+	#geo-top-bar-wrapper .geo-top-bar-message{
+		color: #ffffff;
+	    font-size: 1.3rem;
+	    font-style: normal;
+	    font-weight: 700;
+	    text-transform: none;
+	    margin: 0;
+	    display: inline-block;
+	    font-family: 'Zafirah Bold';
+	    line-height: 2;
+	}
+	#geo-top-bar-wrapper .geo-top-bar-message > span {
+	    margin-left: 5px;
+	    margin-right: 5px;
+	    display: inline-block;
+	}
+	.navbar{
+		position: fixed;
+		top:27px;
+		background-color: transparent;
+	}
+	
+	.navbar.scroll-nav {
+    	background-color: #fff;
+    	border-bottom: 1px solid #e5e5e5;
+    	min-height: 40px;
+	}
+	.padding-top-3x {
+		padding-top: 123px;
+	}
+	
+	.woocommerce-account .padding-top-3x { padding-top: 60px;}
+	
+	.featured-background{
+		padding-top: 123px;
+	}
+}
+
+.padding-top, .padding-top-2x{ display: none}

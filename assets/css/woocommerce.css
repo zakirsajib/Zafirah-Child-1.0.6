@@ -1,0 +1,1682 @@
+.fw-section {
+    z-index: 1;
+    display: block;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+.space-bottom-none,.account-orders-table .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-Tabs-panel {
+    margin-bottom: 0 !important
+}
+
+.form-element,.woocommerce-cart #calc_shipping_state_field,.woocommerce-checkout #calc_shipping_state_field {
+    position: relative;
+    margin-bottom: 24px
+}
+
+.form-element:before,
+.woocommerce-cart #calc_shipping_state_field:before,
+.woocommerce-checkout #calc_shipping_state_field:before {
+    display: block;
+    font-family: 'Material Icons';
+    font-size: 20px;
+    line-height: 1;
+    margin-top: -10px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    position: absolute;
+    top: 50%;
+    right: 14px
+}
+.form-element.form-select:before,
+.woocommerce-cart .form-select#calc_shipping_state_field:before,
+.woocommerce-checkout .form-select#calc_shipping_state_field:before {
+    content: "\e5c5";
+    z-index: 10;
+    font-size: 22px;
+    margin-top: -11px;
+    color: #606060;
+    pointer-events: none;
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.form-group .form-control,.form-group .single-post article label input[type="password"],.single-post article label .form-group input[type="password"],.form-group .product-tools table.variations .form-select select,.product-tools table.variations .form-select .form-group select,.form-group .woocommerce-cart #calc_shipping_state,.woocommerce-cart .form-group #calc_shipping_state,.form-group .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .form-group #calc_shipping_state,.form-group #billing_first_name,.form-group #shipping_first_name,.form-group #billing_last_name,.form-group #shipping_last_name,.form-group #billing_email,.form-group #shipping_email,.form-group #billing_phone,.form-group #shipping_phone,.form-group #billing_address_1,.form-group #shipping_address_1,.form-group #billing_address_2,.form-group #shipping_address_2,.form-group #billing_company,.form-group #shipping_company,.form-group input#billing_state,.form-group input#shipping_state,.form-group #billing_postcode,.form-group #shipping_postcode,.form-group #billing_city,.form-group #shipping_city,.form-group #order_comments,.form-group #account_username,.form-group #account_password,.form-group #account_password-2,.form-group .select2-search__field,.form-group .product-search-field,.form-group #stripe-card-number,.form-group #stripe-card-expiry,.form-group #stripe-card-cvc,.form-group #payment .wc-stripe-elements-field,#payment .form-group .wc-stripe-elements-field,.form-group .widget select,.widget .form-group select,.form-element .form-control,.woocommerce-cart #calc_shipping_state_field .form-control,.woocommerce-checkout #calc_shipping_state_field .form-control,.form-element .single-post article label input[type="password"],.single-post article label .form-element input[type="password"],.woocommerce-cart #calc_shipping_state_field .single-post article label input[type="password"],.single-post article label .woocommerce-cart #calc_shipping_state_field input[type="password"],.woocommerce-checkout #calc_shipping_state_field .single-post article label input[type="password"],.single-post article label .woocommerce-checkout #calc_shipping_state_field input[type="password"],.form-element .product-tools table.variations .form-select select,.product-tools table.variations .form-select .form-element select,.woocommerce-cart #calc_shipping_state_field .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-cart #calc_shipping_state_field select,.woocommerce-checkout #calc_shipping_state_field .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-checkout #calc_shipping_state_field select,.form-element .woocommerce-cart #calc_shipping_state,.woocommerce-cart .form-element #calc_shipping_state,.woocommerce-cart #calc_shipping_state_field #calc_shipping_state,.woocommerce-checkout #calc_shipping_state_field .woocommerce-cart #calc_shipping_state,.woocommerce-cart .woocommerce-checkout #calc_shipping_state_field #calc_shipping_state,.form-element .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .form-element #calc_shipping_state,.woocommerce-cart #calc_shipping_state_field .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .woocommerce-cart #calc_shipping_state_field #calc_shipping_state,.woocommerce-checkout #calc_shipping_state_field #calc_shipping_state,.form-element #billing_first_name,.woocommerce-cart #calc_shipping_state_field #billing_first_name,.woocommerce-checkout #calc_shipping_state_field #billing_first_name,.form-element #shipping_first_name,.woocommerce-cart #calc_shipping_state_field #shipping_first_name,.woocommerce-checkout #calc_shipping_state_field #shipping_first_name,.form-element #billing_last_name,.woocommerce-cart #calc_shipping_state_field #billing_last_name,.woocommerce-checkout #calc_shipping_state_field #billing_last_name,.form-element #shipping_last_name,.woocommerce-cart #calc_shipping_state_field #shipping_last_name,.woocommerce-checkout #calc_shipping_state_field #shipping_last_name,.form-element #billing_email,.woocommerce-cart #calc_shipping_state_field #billing_email,.woocommerce-checkout #calc_shipping_state_field #billing_email,.form-element #shipping_email,.woocommerce-cart #calc_shipping_state_field #shipping_email,.woocommerce-checkout #calc_shipping_state_field #shipping_email,.form-element #billing_phone,.woocommerce-cart #calc_shipping_state_field #billing_phone,.woocommerce-checkout #calc_shipping_state_field #billing_phone,.form-element #shipping_phone,.woocommerce-cart #calc_shipping_state_field #shipping_phone,.woocommerce-checkout #calc_shipping_state_field #shipping_phone,.form-element #billing_address_1,.woocommerce-cart #calc_shipping_state_field #billing_address_1,.woocommerce-checkout #calc_shipping_state_field #billing_address_1,.form-element #shipping_address_1,.woocommerce-cart #calc_shipping_state_field #shipping_address_1,.woocommerce-checkout #calc_shipping_state_field #shipping_address_1,.form-element #billing_address_2,.woocommerce-cart #calc_shipping_state_field #billing_address_2,.woocommerce-checkout #calc_shipping_state_field #billing_address_2,.form-element #shipping_address_2,.woocommerce-cart #calc_shipping_state_field #shipping_address_2,.woocommerce-checkout #calc_shipping_state_field #shipping_address_2,.form-element #billing_company,.woocommerce-cart #calc_shipping_state_field #billing_company,.woocommerce-checkout #calc_shipping_state_field #billing_company,.form-element #shipping_company,.woocommerce-cart #calc_shipping_state_field #shipping_company,.woocommerce-checkout #calc_shipping_state_field #shipping_company,.form-element input#billing_state,.woocommerce-cart #calc_shipping_state_field input#billing_state,.woocommerce-checkout #calc_shipping_state_field input#billing_state,.form-element input#shipping_state,.woocommerce-cart #calc_shipping_state_field input#shipping_state,.woocommerce-checkout #calc_shipping_state_field input#shipping_state,.form-element #billing_postcode,.woocommerce-cart #calc_shipping_state_field #billing_postcode,.woocommerce-checkout #calc_shipping_state_field #billing_postcode,.form-element #shipping_postcode,.woocommerce-cart #calc_shipping_state_field #shipping_postcode,.woocommerce-checkout #calc_shipping_state_field #shipping_postcode,.form-element #billing_city,.woocommerce-cart #calc_shipping_state_field #billing_city,.woocommerce-checkout #calc_shipping_state_field #billing_city,.form-element #shipping_city,.woocommerce-cart #calc_shipping_state_field #shipping_city,.woocommerce-checkout #calc_shipping_state_field #shipping_city,.form-element #order_comments,.woocommerce-cart #calc_shipping_state_field #order_comments,.woocommerce-checkout #calc_shipping_state_field #order_comments,.form-element #account_username,.woocommerce-cart #calc_shipping_state_field #account_username,.woocommerce-checkout #calc_shipping_state_field #account_username,.form-element #account_password,.woocommerce-cart #calc_shipping_state_field #account_password,.woocommerce-checkout #calc_shipping_state_field #account_password,.form-element #account_password-2,.woocommerce-cart #calc_shipping_state_field #account_password-2,.woocommerce-checkout #calc_shipping_state_field #account_password-2,.form-element .select2-search__field,.woocommerce-cart #calc_shipping_state_field .select2-search__field,.woocommerce-checkout #calc_shipping_state_field .select2-search__field,.form-element .product-search-field,.woocommerce-cart #calc_shipping_state_field .product-search-field,.woocommerce-checkout #calc_shipping_state_field .product-search-field,.form-element #stripe-card-number,.woocommerce-cart #calc_shipping_state_field #stripe-card-number,.woocommerce-checkout #calc_shipping_state_field #stripe-card-number,.form-element #stripe-card-expiry,.woocommerce-cart #calc_shipping_state_field #stripe-card-expiry,.woocommerce-checkout #calc_shipping_state_field #stripe-card-expiry,.form-element #stripe-card-cvc,.woocommerce-cart #calc_shipping_state_field #stripe-card-cvc,.woocommerce-checkout #calc_shipping_state_field #stripe-card-cvc,.form-element #payment .wc-stripe-elements-field,#payment .form-element .wc-stripe-elements-field,.woocommerce-cart #calc_shipping_state_field #payment .wc-stripe-elements-field,#payment .woocommerce-cart #calc_shipping_state_field .wc-stripe-elements-field,.woocommerce-checkout #calc_shipping_state_field #payment .wc-stripe-elements-field,#payment .woocommerce-checkout #calc_shipping_state_field .wc-stripe-elements-field,.form-element .widget select,.widget .form-element select,.woocommerce-cart #calc_shipping_state_field .widget select,.widget .woocommerce-cart #calc_shipping_state_field select,.woocommerce-checkout #calc_shipping_state_field .widget select,.widget .woocommerce-checkout #calc_shipping_state_field select {
+    margin-bottom: 0
+}
+.form-control,.single-post article label input[type="password"],.product-tools table.variations .form-select select,.woocommerce-cart #calc_shipping_state,.woocommerce-checkout #calc_shipping_state,#billing_first_name,#shipping_first_name,#billing_last_name,#shipping_last_name,#billing_email,#shipping_email,#billing_phone,#shipping_phone,#billing_address_1,#shipping_address_1,#billing_address_2,#shipping_address_2,#billing_company,#shipping_company,#billing_state,input#shipping_state,#billing_postcode,#shipping_postcode,#billing_city,#shipping_city,#order_comments,#account_username,#account_password,#account_password-2,.select2-search__field,.product-search-field,#stripe-card-number,#stripe-card-expiry,#stripe-card-cvc,#payment .wc-stripe-elements-field,.widget select {
+    display: block;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #606060;
+    text-transform: none;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    padding: 0 16px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.form-control:focus,.single-post article label input[type="password"]:focus,.product-tools table.variations .form-select select:focus,.woocommerce-cart #calc_shipping_state:focus,.woocommerce-checkout #calc_shipping_state:focus,#billing_first_name:focus,#shipping_first_name:focus,#billing_last_name:focus,#shipping_last_name:focus,#billing_email:focus,#shipping_email:focus,#billing_phone:focus,#shipping_phone:focus,#billing_address_1:focus,#shipping_address_1:focus,#billing_address_2:focus,#shipping_address_2:focus,#billing_company:focus,#shipping_company:focus,input#billing_state:focus,input#shipping_state:focus,#billing_postcode:focus,#shipping_postcode:focus,#billing_city:focus,#shipping_city:focus,#order_comments:focus,#account_username:focus,#account_password:focus,#account_password-2:focus,.select2-search__field:focus,.product-search-field:focus,#stripe-card-number:focus,#stripe-card-expiry:focus,#stripe-card-cvc:focus,#payment .wc-stripe-elements-field:focus,.widget select:focus {
+    border-color: #77cde3;
+    outline: none
+}
+
+.form-control::-moz-placeholder,.single-post article label input[type="password"]::-moz-placeholder,.product-tools table.variations .form-select select::-moz-placeholder,.woocommerce-cart #calc_shipping_state::-moz-placeholder,.woocommerce-checkout #calc_shipping_state::-moz-placeholder,#billing_first_name::-moz-placeholder,#shipping_first_name::-moz-placeholder,#billing_last_name::-moz-placeholder,#shipping_last_name::-moz-placeholder,#billing_email::-moz-placeholder,#shipping_email::-moz-placeholder,#billing_phone::-moz-placeholder,#shipping_phone::-moz-placeholder,#billing_address_1::-moz-placeholder,#shipping_address_1::-moz-placeholder,#billing_address_2::-moz-placeholder,#shipping_address_2::-moz-placeholder,#billing_company::-moz-placeholder,#shipping_company::-moz-placeholder,input#billing_state::-moz-placeholder,input#shipping_state::-moz-placeholder,#billing_postcode::-moz-placeholder,#shipping_postcode::-moz-placeholder,#billing_city::-moz-placeholder,#shipping_city::-moz-placeholder,#order_comments::-moz-placeholder,#account_username::-moz-placeholder,#account_password::-moz-placeholder,#account_password-2::-moz-placeholder,.select2-search__field::-moz-placeholder,.product-search-field::-moz-placeholder,#stripe-card-number::-moz-placeholder,#stripe-card-expiry::-moz-placeholder,#stripe-card-cvc::-moz-placeholder,#payment .wc-stripe-elements-field::-moz-placeholder,.widget select::-moz-placeholder {
+    color: #606060;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder,.single-post article label input[type="password"]:-ms-input-placeholder,.product-tools table.variations .form-select select:-ms-input-placeholder,.woocommerce-cart #calc_shipping_state:-ms-input-placeholder,.woocommerce-checkout #calc_shipping_state:-ms-input-placeholder,#billing_first_name:-ms-input-placeholder,#shipping_first_name:-ms-input-placeholder,#billing_last_name:-ms-input-placeholder,#shipping_last_name:-ms-input-placeholder,#billing_email:-ms-input-placeholder,#shipping_email:-ms-input-placeholder,#billing_phone:-ms-input-placeholder,#shipping_phone:-ms-input-placeholder,#billing_address_1:-ms-input-placeholder,#shipping_address_1:-ms-input-placeholder,#billing_address_2:-ms-input-placeholder,#shipping_address_2:-ms-input-placeholder,#billing_company:-ms-input-placeholder,#shipping_company:-ms-input-placeholder,input#billing_state:-ms-input-placeholder,input#shipping_state:-ms-input-placeholder,#billing_postcode:-ms-input-placeholder,#shipping_postcode:-ms-input-placeholder,#billing_city:-ms-input-placeholder,#shipping_city:-ms-input-placeholder,#order_comments:-ms-input-placeholder,#account_username:-ms-input-placeholder,#account_password:-ms-input-placeholder,#account_password-2:-ms-input-placeholder,.select2-search__field:-ms-input-placeholder,.product-search-field:-ms-input-placeholder,#stripe-card-number:-ms-input-placeholder,#stripe-card-expiry:-ms-input-placeholder,#stripe-card-cvc:-ms-input-placeholder,#payment .wc-stripe-elements-field:-ms-input-placeholder,.widget select:-ms-input-placeholder {
+    color: #606060
+}
+
+.form-control::-webkit-input-placeholder,.single-post article label input[type="password"]::-webkit-input-placeholder,.product-tools table.variations .form-select select::-webkit-input-placeholder,.woocommerce-cart #calc_shipping_state::-webkit-input-placeholder,.woocommerce-checkout #calc_shipping_state::-webkit-input-placeholder,#billing_first_name::-webkit-input-placeholder,#shipping_first_name::-webkit-input-placeholder,#billing_last_name::-webkit-input-placeholder,#shipping_last_name::-webkit-input-placeholder,#billing_email::-webkit-input-placeholder,#shipping_email::-webkit-input-placeholder,#billing_phone::-webkit-input-placeholder,#shipping_phone::-webkit-input-placeholder,#billing_address_1::-webkit-input-placeholder,#shipping_address_1::-webkit-input-placeholder,#billing_address_2::-webkit-input-placeholder,#shipping_address_2::-webkit-input-placeholder,#billing_company::-webkit-input-placeholder,#shipping_company::-webkit-input-placeholder,input#billing_state::-webkit-input-placeholder,input#shipping_state::-webkit-input-placeholder,#billing_postcode::-webkit-input-placeholder,#shipping_postcode::-webkit-input-placeholder,#billing_city::-webkit-input-placeholder,#shipping_city::-webkit-input-placeholder,#order_comments::-webkit-input-placeholder,#account_username::-webkit-input-placeholder,#account_password::-webkit-input-placeholder,#account_password-2::-webkit-input-placeholder,.select2-search__field::-webkit-input-placeholder,.product-search-field::-webkit-input-placeholder,#stripe-card-number::-webkit-input-placeholder,#stripe-card-expiry::-webkit-input-placeholder,#stripe-card-cvc::-webkit-input-placeholder,#payment .wc-stripe-elements-field::-webkit-input-placeholder,.widget select::-webkit-input-placeholder {
+    color: #606060
+}
+
+.form-control.placeholder,.single-post article label input.placeholder[type="password"],.product-tools table.variations .form-select select.placeholder,.woocommerce-cart .placeholder#calc_shipping_state,.woocommerce-checkout .placeholder#calc_shipping_state,.placeholder#billing_first_name,.placeholder#shipping_first_name,.placeholder#billing_last_name,.placeholder#shipping_last_name,.placeholder#billing_email,.placeholder#shipping_email,.placeholder#billing_phone,.placeholder#shipping_phone,.placeholder#billing_address_1,.placeholder#shipping_address_1,.placeholder#billing_address_2,.placeholder#shipping_address_2,.placeholder#billing_company,.placeholder#shipping_company,input.placeholder#billing_state,input.placeholder#shipping_state,.placeholder#billing_postcode,.placeholder#shipping_postcode,.placeholder#billing_city,.placeholder#shipping_city,.placeholder#order_comments,.placeholder#account_username,.placeholder#account_password,.placeholder#account_password-2,.placeholder.select2-search__field,.placeholder.product-search-field,.placeholder#stripe-card-number,.placeholder#stripe-card-expiry,.placeholder#stripe-card-cvc,#payment .placeholder.wc-stripe-elements-field,.widget select.placeholder {
+    color: #606060
+}
+
+textarea.form-control,.woocommerce-cart textarea#calc_shipping_state,.woocommerce-checkout textarea#calc_shipping_state,textarea#billing_first_name,textarea#shipping_first_name,textarea#billing_last_name,textarea#shipping_last_name,textarea#billing_email,textarea#shipping_email,textarea#billing_phone,textarea#shipping_phone,textarea#billing_address_1,textarea#shipping_address_1,textarea#billing_address_2,textarea#shipping_address_2,textarea#billing_company,textarea#shipping_company,textarea#billing_postcode,textarea#shipping_postcode,textarea#billing_city,textarea#shipping_city,textarea#order_comments,textarea#account_username,textarea#account_password,textarea#account_password-2,textarea.select2-search__field,textarea.product-search-field,textarea#stripe-card-number,textarea#stripe-card-expiry,textarea#stripe-card-cvc,#payment textarea.wc-stripe-elements-field {
+    height: auto !important;
+    padding: 13px 16px !important
+}
+
+.form-group {
+    margin-bottom: 24px
+}
+
+
+
+.form-element>i,.woocommerce-cart #calc_shipping_state_field>i,.woocommerce-checkout #calc_shipping_state_field>i {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 13px;
+    left: 0
+}
+select.form-control::-ms-expand,.product-tools table.variations .form-select select::-ms-expand,.woocommerce-cart select#calc_shipping_state::-ms-expand,.woocommerce-checkout select#calc_shipping_state::-ms-expand,select#billing_first_name::-ms-expand,select#shipping_first_name::-ms-expand,select#billing_last_name::-ms-expand,select#shipping_last_name::-ms-expand,select#billing_email::-ms-expand,select#shipping_email::-ms-expand,select#billing_phone::-ms-expand,select#shipping_phone::-ms-expand,select#billing_address_1::-ms-expand,select#shipping_address_1::-ms-expand,select#billing_address_2::-ms-expand,select#shipping_address_2::-ms-expand,select#billing_company::-ms-expand,select#shipping_company::-ms-expand,select#billing_postcode::-ms-expand,select#shipping_postcode::-ms-expand,select#billing_city::-ms-expand,select#shipping_city::-ms-expand,select#order_comments::-ms-expand,select#account_username::-ms-expand,select#account_password::-ms-expand,select#account_password-2::-ms-expand,select.select2-search__field::-ms-expand,select.product-search-field::-ms-expand,select#stripe-card-number::-ms-expand,select#stripe-card-expiry::-ms-expand,select#stripe-card-cvc::-ms-expand,#payment select.wc-stripe-elements-field::-ms-expand,.widget select::-ms-expand {
+    display: none
+}
+
+select option {
+    color: #606060
+}
+
+.form-control-sm,.product-tools table.variations .form-select select {
+    height: 36px
+}
+
+
+
+.form-element.error .form-control,.woocommerce-cart .error#calc_shipping_state_field .form-control,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid .form-control,.woocommerce-checkout .error#calc_shipping_state_field .form-control,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid .form-control,.form-element.woocommerce-invalid .form-control,.form-element.error .single-post article label input[type="password"],.single-post article label .form-element.error input[type="password"],.woocommerce-cart .error#calc_shipping_state_field .single-post article label input[type="password"],.single-post article label .woocommerce-cart .error#calc_shipping_state_field input[type="password"],.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid .single-post article label input[type="password"],.single-post article label .woocommerce-cart #calc_shipping_state_field.woocommerce-invalid input[type="password"],.woocommerce-checkout .error#calc_shipping_state_field .single-post article label input[type="password"],.single-post article label .woocommerce-checkout .error#calc_shipping_state_field input[type="password"],.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid .single-post article label input[type="password"],.single-post article label .woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid input[type="password"],.form-element.woocommerce-invalid .single-post article label input[type="password"],.single-post article label .form-element.woocommerce-invalid input[type="password"],.form-element.error .product-tools table.variations .form-select select,.product-tools table.variations .form-select .form-element.error select,.woocommerce-cart .error#calc_shipping_state_field .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-cart .error#calc_shipping_state_field select,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-cart #calc_shipping_state_field.woocommerce-invalid select,.woocommerce-checkout .error#calc_shipping_state_field .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-checkout .error#calc_shipping_state_field select,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid select,.form-element.woocommerce-invalid .product-tools table.variations .form-select select,.product-tools table.variations .form-select .form-element.woocommerce-invalid select,.form-element.error .woocommerce-cart #calc_shipping_state,.woocommerce-cart .form-element.error #calc_shipping_state,.woocommerce-cart .error#calc_shipping_state_field #calc_shipping_state,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #calc_shipping_state,.woocommerce-checkout .error#calc_shipping_state_field .woocommerce-cart #calc_shipping_state,.woocommerce-cart .woocommerce-checkout .error#calc_shipping_state_field #calc_shipping_state,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid .woocommerce-cart #calc_shipping_state,.woocommerce-cart .woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #calc_shipping_state,.form-element.woocommerce-invalid .woocommerce-cart #calc_shipping_state,.woocommerce-cart .form-element.woocommerce-invalid #calc_shipping_state,.form-element.error .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .form-element.error #calc_shipping_state,.woocommerce-cart .error#calc_shipping_state_field .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .woocommerce-cart .error#calc_shipping_state_field #calc_shipping_state,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #calc_shipping_state,.woocommerce-checkout .error#calc_shipping_state_field #calc_shipping_state,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #calc_shipping_state,.form-element.woocommerce-invalid .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .form-element.woocommerce-invalid #calc_shipping_state,.form-element.error #billing_first_name,.woocommerce-cart .error#calc_shipping_state_field #billing_first_name,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #billing_first_name,.woocommerce-checkout .error#calc_shipping_state_field #billing_first_name,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #billing_first_name,.form-element.woocommerce-invalid #billing_first_name,.form-element.error #shipping_first_name,.woocommerce-cart .error#calc_shipping_state_field #shipping_first_name,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #shipping_first_name,.woocommerce-checkout .error#calc_shipping_state_field #shipping_first_name,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #shipping_first_name,.form-element.woocommerce-invalid #shipping_first_name,.form-element.error #billing_last_name,.woocommerce-cart .error#calc_shipping_state_field #billing_last_name,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #billing_last_name,.woocommerce-checkout .error#calc_shipping_state_field #billing_last_name,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #billing_last_name,.form-element.woocommerce-invalid #billing_last_name,.form-element.error #shipping_last_name,.woocommerce-cart .error#calc_shipping_state_field #shipping_last_name,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #shipping_last_name,.woocommerce-checkout .error#calc_shipping_state_field #shipping_last_name,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #shipping_last_name,.form-element.woocommerce-invalid #shipping_last_name,.form-element.error #billing_email,.woocommerce-cart .error#calc_shipping_state_field #billing_email,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #billing_email,.woocommerce-checkout .error#calc_shipping_state_field #billing_email,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #billing_email,.form-element.woocommerce-invalid #billing_email,.form-element.error #shipping_email,.woocommerce-cart .error#calc_shipping_state_field #shipping_email,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #shipping_email,.woocommerce-checkout .error#calc_shipping_state_field #shipping_email,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #shipping_email,.form-element.woocommerce-invalid #shipping_email,.form-element.error #billing_phone,.woocommerce-cart .error#calc_shipping_state_field #billing_phone,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #billing_phone,.woocommerce-checkout .error#calc_shipping_state_field #billing_phone,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #billing_phone,.form-element.woocommerce-invalid #billing_phone,.form-element.error #shipping_phone,.woocommerce-cart .error#calc_shipping_state_field #shipping_phone,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #shipping_phone,.woocommerce-checkout .error#calc_shipping_state_field #shipping_phone,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #shipping_phone,.form-element.woocommerce-invalid #shipping_phone,.form-element.error #billing_address_1,.woocommerce-cart .error#calc_shipping_state_field #billing_address_1,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #billing_address_1,.woocommerce-checkout .error#calc_shipping_state_field #billing_address_1,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #billing_address_1,.form-element.woocommerce-invalid #billing_address_1,.form-element.error #shipping_address_1,.woocommerce-cart .error#calc_shipping_state_field #shipping_address_1,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #shipping_address_1,.woocommerce-checkout .error#calc_shipping_state_field #shipping_address_1,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #shipping_address_1,.form-element.woocommerce-invalid #shipping_address_1,.form-element.error #billing_address_2,.woocommerce-cart .error#calc_shipping_state_field #billing_address_2,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #billing_address_2,.woocommerce-checkout .error#calc_shipping_state_field #billing_address_2,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #billing_address_2,.form-element.woocommerce-invalid #billing_address_2,.form-element.error #shipping_address_2,.woocommerce-cart .error#calc_shipping_state_field #shipping_address_2,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #shipping_address_2,.woocommerce-checkout .error#calc_shipping_state_field #shipping_address_2,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #shipping_address_2,.form-element.woocommerce-invalid #shipping_address_2,.form-element.error #billing_company,.woocommerce-cart .error#calc_shipping_state_field #billing_company,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #billing_company,.woocommerce-checkout .error#calc_shipping_state_field #billing_company,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #billing_company,.form-element.woocommerce-invalid #billing_company,.form-element.error #shipping_company,.woocommerce-cart .error#calc_shipping_state_field #shipping_company,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #shipping_company,.woocommerce-checkout .error#calc_shipping_state_field #shipping_company,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #shipping_company,.form-element.woocommerce-invalid #shipping_company,.form-element.error input#billing_state,.woocommerce-cart .error#calc_shipping_state_field input#billing_state,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid input#billing_state,.woocommerce-checkout .error#calc_shipping_state_field input#billing_state,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid input#billing_state,.form-element.woocommerce-invalid input#billing_state,.form-element.error input#shipping_state,.woocommerce-cart .error#calc_shipping_state_field input#shipping_state,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid input#shipping_state,.woocommerce-checkout .error#calc_shipping_state_field input#shipping_state,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid input#shipping_state,.form-element.woocommerce-invalid input#shipping_state,.form-element.error #billing_postcode,.woocommerce-cart .error#calc_shipping_state_field #billing_postcode,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #billing_postcode,.woocommerce-checkout .error#calc_shipping_state_field #billing_postcode,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #billing_postcode,.form-element.woocommerce-invalid #billing_postcode,.form-element.error #shipping_postcode,.woocommerce-cart .error#calc_shipping_state_field #shipping_postcode,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #shipping_postcode,.woocommerce-checkout .error#calc_shipping_state_field #shipping_postcode,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #shipping_postcode,.form-element.woocommerce-invalid #shipping_postcode,.form-element.error #billing_city,.woocommerce-cart .error#calc_shipping_state_field #billing_city,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #billing_city,.woocommerce-checkout .error#calc_shipping_state_field #billing_city,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #billing_city,.form-element.woocommerce-invalid #billing_city,.form-element.error #shipping_city,.woocommerce-cart .error#calc_shipping_state_field #shipping_city,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #shipping_city,.woocommerce-checkout .error#calc_shipping_state_field #shipping_city,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #shipping_city,.form-element.woocommerce-invalid #shipping_city,.form-element.error #order_comments,.woocommerce-cart .error#calc_shipping_state_field #order_comments,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #order_comments,.woocommerce-checkout .error#calc_shipping_state_field #order_comments,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #order_comments,.form-element.woocommerce-invalid #order_comments,.form-element.error #account_username,.woocommerce-cart .error#calc_shipping_state_field #account_username,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #account_username,.woocommerce-checkout .error#calc_shipping_state_field #account_username,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #account_username,.form-element.woocommerce-invalid #account_username,.form-element.error #account_password,.woocommerce-cart .error#calc_shipping_state_field #account_password,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #account_password,.woocommerce-checkout .error#calc_shipping_state_field #account_password,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #account_password,.form-element.woocommerce-invalid #account_password,.form-element.error #account_password-2,.woocommerce-cart .error#calc_shipping_state_field #account_password-2,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #account_password-2,.woocommerce-checkout .error#calc_shipping_state_field #account_password-2,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #account_password-2,.form-element.woocommerce-invalid #account_password-2,.form-element.error .select2-search__field,.woocommerce-cart .error#calc_shipping_state_field .select2-search__field,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid .select2-search__field,.woocommerce-checkout .error#calc_shipping_state_field .select2-search__field,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid .select2-search__field,.form-element.woocommerce-invalid .select2-search__field,.form-element.error .product-search-field,.woocommerce-cart .error#calc_shipping_state_field .product-search-field,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid .product-search-field,.woocommerce-checkout .error#calc_shipping_state_field .product-search-field,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid .product-search-field,.form-element.woocommerce-invalid .product-search-field,.form-element.error #stripe-card-number,.woocommerce-cart .error#calc_shipping_state_field #stripe-card-number,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #stripe-card-number,.woocommerce-checkout .error#calc_shipping_state_field #stripe-card-number,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #stripe-card-number,.form-element.woocommerce-invalid #stripe-card-number,.form-element.error #stripe-card-expiry,.woocommerce-cart .error#calc_shipping_state_field #stripe-card-expiry,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #stripe-card-expiry,.woocommerce-checkout .error#calc_shipping_state_field #stripe-card-expiry,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #stripe-card-expiry,.form-element.woocommerce-invalid #stripe-card-expiry,.form-element.error #stripe-card-cvc,.woocommerce-cart .error#calc_shipping_state_field #stripe-card-cvc,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #stripe-card-cvc,.woocommerce-checkout .error#calc_shipping_state_field #stripe-card-cvc,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #stripe-card-cvc,.form-element.woocommerce-invalid #stripe-card-cvc,.form-element.error #payment .wc-stripe-elements-field,#payment .form-element.error .wc-stripe-elements-field,.woocommerce-cart .error#calc_shipping_state_field #payment .wc-stripe-elements-field,#payment .woocommerce-cart .error#calc_shipping_state_field .wc-stripe-elements-field,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid #payment .wc-stripe-elements-field,#payment .woocommerce-cart #calc_shipping_state_field.woocommerce-invalid .wc-stripe-elements-field,.woocommerce-checkout .error#calc_shipping_state_field #payment .wc-stripe-elements-field,#payment .woocommerce-checkout .error#calc_shipping_state_field .wc-stripe-elements-field,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid #payment .wc-stripe-elements-field,#payment .woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid .wc-stripe-elements-field,.form-element.woocommerce-invalid #payment .wc-stripe-elements-field,#payment .form-element.woocommerce-invalid .wc-stripe-elements-field,.form-element.error .widget select,.widget .form-element.error select,.woocommerce-cart .error#calc_shipping_state_field .widget select,.widget .woocommerce-cart .error#calc_shipping_state_field select,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid .widget select,.widget .woocommerce-cart #calc_shipping_state_field.woocommerce-invalid select,.woocommerce-checkout .error#calc_shipping_state_field .widget select,.widget .woocommerce-checkout .error#calc_shipping_state_field select,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid .widget select,.widget .woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid select,.form-element.woocommerce-invalid .widget select,.widget .form-element.woocommerce-invalid select {
+    border-color: #ef0568;
+    padding-right: 40px
+}
+
+.form-element.error:before,.woocommerce-cart .error#calc_shipping_state_field:before,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid:before,.woocommerce-checkout .error#calc_shipping_state_field:before,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid:before,.form-element.woocommerce-invalid:before {
+    content: "\e5c9";
+    color: #ef0568;
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.form-element.error:focus,.woocommerce-cart .error#calc_shipping_state_field:focus,.woocommerce-cart #calc_shipping_state_field.woocommerce-invalid:focus,.woocommerce-checkout .error#calc_shipping_state_field:focus,.woocommerce-checkout #calc_shipping_state_field.woocommerce-invalid:focus,.form-element.woocommerce-invalid:focus {
+    border-color: #ef0568
+}
+
+.form-element.valid .form-control,.woocommerce-cart .valid#calc_shipping_state_field .form-control,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated .form-control,.woocommerce-checkout .valid#calc_shipping_state_field .form-control,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated .form-control,.form-element.woocommerce-validated .form-control,.form-element.valid .single-post article label input[type="password"],.single-post article label .form-element.valid input[type="password"],.woocommerce-cart .valid#calc_shipping_state_field .single-post article label input[type="password"],.single-post article label .woocommerce-cart .valid#calc_shipping_state_field input[type="password"],.woocommerce-cart #calc_shipping_state_field.woocommerce-validated .single-post article label input[type="password"],.single-post article label .woocommerce-cart #calc_shipping_state_field.woocommerce-validated input[type="password"],.woocommerce-checkout .valid#calc_shipping_state_field .single-post article label input[type="password"],.single-post article label .woocommerce-checkout .valid#calc_shipping_state_field input[type="password"],.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated .single-post article label input[type="password"],.single-post article label .woocommerce-checkout #calc_shipping_state_field.woocommerce-validated input[type="password"],.form-element.woocommerce-validated .single-post article label input[type="password"],.single-post article label .form-element.woocommerce-validated input[type="password"],.form-element.valid .product-tools table.variations .form-select select,.product-tools table.variations .form-select .form-element.valid select,.woocommerce-cart .valid#calc_shipping_state_field .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-cart .valid#calc_shipping_state_field select,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-cart #calc_shipping_state_field.woocommerce-validated select,.woocommerce-checkout .valid#calc_shipping_state_field .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-checkout .valid#calc_shipping_state_field select,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated .product-tools table.variations .form-select select,.product-tools table.variations .form-select .woocommerce-checkout #calc_shipping_state_field.woocommerce-validated select,.form-element.woocommerce-validated .product-tools table.variations .form-select select,.product-tools table.variations .form-select .form-element.woocommerce-validated select,.form-element.valid .woocommerce-cart #calc_shipping_state,.woocommerce-cart .form-element.valid #calc_shipping_state,.woocommerce-cart .valid#calc_shipping_state_field #calc_shipping_state,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #calc_shipping_state,.woocommerce-checkout .valid#calc_shipping_state_field .woocommerce-cart #calc_shipping_state,.woocommerce-cart .woocommerce-checkout .valid#calc_shipping_state_field #calc_shipping_state,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated .woocommerce-cart #calc_shipping_state,.woocommerce-cart .woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #calc_shipping_state,.form-element.woocommerce-validated .woocommerce-cart #calc_shipping_state,.woocommerce-cart .form-element.woocommerce-validated #calc_shipping_state,.form-element.valid .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .form-element.valid #calc_shipping_state,.woocommerce-cart .valid#calc_shipping_state_field .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .woocommerce-cart .valid#calc_shipping_state_field #calc_shipping_state,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .woocommerce-cart #calc_shipping_state_field.woocommerce-validated #calc_shipping_state,.woocommerce-checkout .valid#calc_shipping_state_field #calc_shipping_state,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #calc_shipping_state,.form-element.woocommerce-validated .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .form-element.woocommerce-validated #calc_shipping_state,.form-element.valid #billing_first_name,.woocommerce-cart .valid#calc_shipping_state_field #billing_first_name,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #billing_first_name,.woocommerce-checkout .valid#calc_shipping_state_field #billing_first_name,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #billing_first_name,.form-element.woocommerce-validated #billing_first_name,.form-element.valid #shipping_first_name,.woocommerce-cart .valid#calc_shipping_state_field #shipping_first_name,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #shipping_first_name,.woocommerce-checkout .valid#calc_shipping_state_field #shipping_first_name,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #shipping_first_name,.form-element.woocommerce-validated #shipping_first_name,.form-element.valid #billing_last_name,.woocommerce-cart .valid#calc_shipping_state_field #billing_last_name,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #billing_last_name,.woocommerce-checkout .valid#calc_shipping_state_field #billing_last_name,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #billing_last_name,.form-element.woocommerce-validated #billing_last_name,.form-element.valid #shipping_last_name,.woocommerce-cart .valid#calc_shipping_state_field #shipping_last_name,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #shipping_last_name,.woocommerce-checkout .valid#calc_shipping_state_field #shipping_last_name,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #shipping_last_name,.form-element.woocommerce-validated #shipping_last_name,.form-element.valid #billing_email,.woocommerce-cart .valid#calc_shipping_state_field #billing_email,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #billing_email,.woocommerce-checkout .valid#calc_shipping_state_field #billing_email,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #billing_email,.form-element.woocommerce-validated #billing_email,.form-element.valid #shipping_email,.woocommerce-cart .valid#calc_shipping_state_field #shipping_email,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #shipping_email,.woocommerce-checkout .valid#calc_shipping_state_field #shipping_email,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #shipping_email,.form-element.woocommerce-validated #shipping_email,.form-element.valid #billing_phone,.woocommerce-cart .valid#calc_shipping_state_field #billing_phone,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #billing_phone,.woocommerce-checkout .valid#calc_shipping_state_field #billing_phone,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #billing_phone,.form-element.woocommerce-validated #billing_phone,.form-element.valid #shipping_phone,.woocommerce-cart .valid#calc_shipping_state_field #shipping_phone,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #shipping_phone,.woocommerce-checkout .valid#calc_shipping_state_field #shipping_phone,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #shipping_phone,.form-element.woocommerce-validated #shipping_phone,.form-element.valid #billing_address_1,.woocommerce-cart .valid#calc_shipping_state_field #billing_address_1,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #billing_address_1,.woocommerce-checkout .valid#calc_shipping_state_field #billing_address_1,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #billing_address_1,.form-element.woocommerce-validated #billing_address_1,.form-element.valid #shipping_address_1,.woocommerce-cart .valid#calc_shipping_state_field #shipping_address_1,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #shipping_address_1,.woocommerce-checkout .valid#calc_shipping_state_field #shipping_address_1,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #shipping_address_1,.form-element.woocommerce-validated #shipping_address_1,.form-element.valid #billing_address_2,.woocommerce-cart .valid#calc_shipping_state_field #billing_address_2,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #billing_address_2,.woocommerce-checkout .valid#calc_shipping_state_field #billing_address_2,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #billing_address_2,.form-element.woocommerce-validated #billing_address_2,.form-element.valid #shipping_address_2,.woocommerce-cart .valid#calc_shipping_state_field #shipping_address_2,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #shipping_address_2,.woocommerce-checkout .valid#calc_shipping_state_field #shipping_address_2,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #shipping_address_2,.form-element.woocommerce-validated #shipping_address_2,.form-element.valid #billing_company,.woocommerce-cart .valid#calc_shipping_state_field #billing_company,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #billing_company,.woocommerce-checkout .valid#calc_shipping_state_field #billing_company,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #billing_company,.form-element.woocommerce-validated #billing_company,.form-element.valid #shipping_company,.woocommerce-cart .valid#calc_shipping_state_field #shipping_company,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #shipping_company,.woocommerce-checkout .valid#calc_shipping_state_field #shipping_company,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #shipping_company,.form-element.woocommerce-validated #shipping_company,.form-element.valid input#billing_state,.woocommerce-cart .valid#calc_shipping_state_field input#billing_state,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated input#billing_state,.woocommerce-checkout .valid#calc_shipping_state_field input#billing_state,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated input#billing_state,.form-element.woocommerce-validated input#billing_state,.form-element.valid input#shipping_state,.woocommerce-cart .valid#calc_shipping_state_field input#shipping_state,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated input#shipping_state,.woocommerce-checkout .valid#calc_shipping_state_field input#shipping_state,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated input#shipping_state,.form-element.woocommerce-validated input#shipping_state,.form-element.valid #billing_postcode,.woocommerce-cart .valid#calc_shipping_state_field #billing_postcode,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #billing_postcode,.woocommerce-checkout .valid#calc_shipping_state_field #billing_postcode,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #billing_postcode,.form-element.woocommerce-validated #billing_postcode,.form-element.valid #shipping_postcode,.woocommerce-cart .valid#calc_shipping_state_field #shipping_postcode,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #shipping_postcode,.woocommerce-checkout .valid#calc_shipping_state_field #shipping_postcode,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #shipping_postcode,.form-element.woocommerce-validated #shipping_postcode,.form-element.valid #billing_city,.woocommerce-cart .valid#calc_shipping_state_field #billing_city,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #billing_city,.woocommerce-checkout .valid#calc_shipping_state_field #billing_city,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #billing_city,.form-element.woocommerce-validated #billing_city,.form-element.valid #shipping_city,.woocommerce-cart .valid#calc_shipping_state_field #shipping_city,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #shipping_city,.woocommerce-checkout .valid#calc_shipping_state_field #shipping_city,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #shipping_city,.form-element.woocommerce-validated #shipping_city,.form-element.valid #order_comments,.woocommerce-cart .valid#calc_shipping_state_field #order_comments,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #order_comments,.woocommerce-checkout .valid#calc_shipping_state_field #order_comments,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #order_comments,.form-element.woocommerce-validated #order_comments,.form-element.valid #account_username,.woocommerce-cart .valid#calc_shipping_state_field #account_username,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #account_username,.woocommerce-checkout .valid#calc_shipping_state_field #account_username,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #account_username,.form-element.woocommerce-validated #account_username,.form-element.valid #account_password,.woocommerce-cart .valid#calc_shipping_state_field #account_password,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #account_password,.woocommerce-checkout .valid#calc_shipping_state_field #account_password,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #account_password,.form-element.woocommerce-validated #account_password,.form-element.valid #account_password-2,.woocommerce-cart .valid#calc_shipping_state_field #account_password-2,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #account_password-2,.woocommerce-checkout .valid#calc_shipping_state_field #account_password-2,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #account_password-2,.form-element.woocommerce-validated #account_password-2,.form-element.valid .select2-search__field,.woocommerce-cart .valid#calc_shipping_state_field .select2-search__field,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated .select2-search__field,.woocommerce-checkout .valid#calc_shipping_state_field .select2-search__field,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated .select2-search__field,.form-element.woocommerce-validated .select2-search__field,.form-element.valid .product-search-field,.woocommerce-cart .valid#calc_shipping_state_field .product-search-field,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated .product-search-field,.woocommerce-checkout .valid#calc_shipping_state_field .product-search-field,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated .product-search-field,.form-element.woocommerce-validated .product-search-field,.form-element.valid #stripe-card-number,.woocommerce-cart .valid#calc_shipping_state_field #stripe-card-number,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #stripe-card-number,.woocommerce-checkout .valid#calc_shipping_state_field #stripe-card-number,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #stripe-card-number,.form-element.woocommerce-validated #stripe-card-number,.form-element.valid #stripe-card-expiry,.woocommerce-cart .valid#calc_shipping_state_field #stripe-card-expiry,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #stripe-card-expiry,.woocommerce-checkout .valid#calc_shipping_state_field #stripe-card-expiry,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #stripe-card-expiry,.form-element.woocommerce-validated #stripe-card-expiry,.form-element.valid #stripe-card-cvc,.woocommerce-cart .valid#calc_shipping_state_field #stripe-card-cvc,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #stripe-card-cvc,.woocommerce-checkout .valid#calc_shipping_state_field #stripe-card-cvc,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #stripe-card-cvc,.form-element.woocommerce-validated #stripe-card-cvc,.form-element.valid #payment .wc-stripe-elements-field,#payment .form-element.valid .wc-stripe-elements-field,.woocommerce-cart .valid#calc_shipping_state_field #payment .wc-stripe-elements-field,#payment .woocommerce-cart .valid#calc_shipping_state_field .wc-stripe-elements-field,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated #payment .wc-stripe-elements-field,#payment .woocommerce-cart #calc_shipping_state_field.woocommerce-validated .wc-stripe-elements-field,.woocommerce-checkout .valid#calc_shipping_state_field #payment .wc-stripe-elements-field,#payment .woocommerce-checkout .valid#calc_shipping_state_field .wc-stripe-elements-field,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated #payment .wc-stripe-elements-field,#payment .woocommerce-checkout #calc_shipping_state_field.woocommerce-validated .wc-stripe-elements-field,.form-element.woocommerce-validated #payment .wc-stripe-elements-field,#payment .form-element.woocommerce-validated .wc-stripe-elements-field,.form-element.valid .widget select,.widget .form-element.valid select,.woocommerce-cart .valid#calc_shipping_state_field .widget select,.widget .woocommerce-cart .valid#calc_shipping_state_field select,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated .widget select,.widget .woocommerce-cart #calc_shipping_state_field.woocommerce-validated select,.woocommerce-checkout .valid#calc_shipping_state_field .widget select,.widget .woocommerce-checkout .valid#calc_shipping_state_field select,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated .widget select,.widget .woocommerce-checkout #calc_shipping_state_field.woocommerce-validated select,.form-element.woocommerce-validated .widget select,.widget .form-element.woocommerce-validated select {
+    border-color: #a7c04d;
+    padding-right: 40px
+}
+
+.form-element.valid:before,.woocommerce-cart .valid#calc_shipping_state_field:before,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated:before,.woocommerce-checkout .valid#calc_shipping_state_field:before,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated:before,.form-element.woocommerce-validated:before {
+    content: "\e5ca";
+    color: #a7c04d;
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.form-element.valid:focus,.woocommerce-cart .valid#calc_shipping_state_field:focus,.woocommerce-cart #calc_shipping_state_field.woocommerce-validated:focus,.woocommerce-checkout .valid#calc_shipping_state_field:focus,.woocommerce-checkout #calc_shipping_state_field.woocommerce-validated:focus,.form-element.woocommerce-validated:focus {
+    border-color: #a7c04d
+}
+.sidebar {
+    width: 100%;
+    max-width: 300px
+}
+.widget-title small {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    text-transform: none;
+    margin-top: 20px
+}
+.widget:last-child {
+    border-bottom: 0
+}
+.widget ul>li>ins {
+    text-decoration: none
+}
+
+.widget ul>li .star-rating {
+    line-height: inherit;
+    position: relative;
+    top: auto;
+    right: auto
+}
+.widget ul>li>a .color {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: -2px;
+    margin-right: 3px
+}
+
+.widget ul>li.active>a {
+    color: #606060
+}
+
+.widget .tagcloud a {
+    display: inline-block;
+    height: 30px;
+    color: #999;
+    font-size: 12px !important;
+    line-height: 26px;
+    text-decoration: none;
+    border: 2px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 0 12px;
+    margin: 0 2px 8px 0;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.widget .tagcloud a:hover,.widget .tagcloud a.active {
+    color: #606060;
+    border-color: #606060
+}
+
+.widget_calendar table {
+    margin: 0
+}
+
+.widget_calendar table th,.widget_calendar table td {
+    padding: 10px 0
+}
+
+.widget_calendar table td#today {
+    font-weight: bold
+}
+
+.widget_calendar table tfoot td {
+    border: none
+}
+
+.woocommerce-widget-layered-nav-dropdown .select2-container {
+    width: 100%
+}
+
+.woocommerce-widget-layered-nav-dropdown .select2-selection.select2-selection--multiple {
+    border: none !important;
+    padding: 0
+}
+
+.woocommerce-widget-layered-nav-dropdown li.select2-search.select2-search--inline {
+    width: 100%;
+    margin: 0
+}
+
+.woocommerce-widget-layered-nav-dropdown input.select2-search__field {
+    width: 100% !important;
+    padding-left: 16px !important
+}
+
+.widget_price_filter .price_slider {
+    margin: 1.5em auto
+}
+
+.widget_price_filter .price_slider_amount {
+    text-align: right;
+    line-height: 2.4em
+}
+
+.widget_price_filter .price_slider_amount .button {
+    float: left
+}
+
+.widget_price_filter .price_label {
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 10px
+}
+
+.widget_price_filter .ui-slider {
+    text-align: left;
+    position: relative
+}
+
+.widget_price_filter .ui-slider .ui-slider-handle {
+    z-index: 2;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #606060;
+    cursor: default;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -6px;
+    left: -8px
+}
+
+.widget_price_filter .ui-slider .ui-slider-handle:last-child {
+    margin-left: -1em
+}
+
+.widget_price_filter .ui-slider .ui-slider-handle:hover,.widget_price_filter .ui-slider .ui-slider-handle.ui-state-active {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.15)
+}
+
+.widget_price_filter .ui-slider .ui-slider-range {
+    z-index: 1;
+    display: block;
+    border: none;
+    background: #606060;
+    -webkit-transition: background 0.45s;
+    -o-transition: background 0.45s;
+    transition: background 0.45s;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    position: absolute
+}
+
+.widget_price_filter .price_slider_wrapper .ui-widget-content {
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background: rgba(0,0,0,0.1)
+}
+
+.widget_price_filter .ui-slider-horizontal {
+    height: 0.3em
+}
+
+.widget_price_filter .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 70%
+}
+
+.widget_price_filter .ui-slider-horizontal .ui-slider-range-min {
+    left: -1px
+}
+
+.widget_price_filter .ui-slider-horizontal .ui-slider-range-max {
+    right: -1px
+}
+
+.sidebar-toggle,.sidebar-close {
+    display: none
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar {
+        height:100%;
+        z-index: 9910;
+        background-color: #fff;
+        overflow-y: auto;
+        -ms-overflow-style: none;
+        padding: 30px 24px;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.15);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.15);
+        -webkit-transition: left 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,box-shadow 0.3s 0.3s;
+        -o-transition: left 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,box-shadow 0.3s 0.3s;
+        -webkit-transition: left 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,-webkit-box-shadow 0.3s 0.3s;
+        transition: left 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,-webkit-box-shadow 0.3s 0.3s;
+        transition: left 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,box-shadow 0.3s 0.3s;
+        transition: left 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,box-shadow 0.3s 0.3s,-webkit-box-shadow 0.3s 0.3s
+    }
+	
+    .sidebar.open {
+        left: 0;
+        z-index: 999999;
+        -webkit-box-shadow: 0px 0px 50px 3px rgba(0,0,0,0.15);
+        box-shadow: 0px 0px 50px 3px rgba(0,0,0,0.15)
+    }
+	
+    .sidebar.sidebar-right {
+        left: auto;
+        right: -300px;
+        -webkit-transition: right 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,box-shadow 0.3s 0.3s;
+        -o-transition: right 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,box-shadow 0.3s 0.3s;
+        -webkit-transition: right 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,-webkit-box-shadow 0.3s 0.3s;
+        transition: right 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,-webkit-box-shadow 0.3s 0.3s;
+        transition: right 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,box-shadow 0.3s 0.3s;
+        transition: right 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s,box-shadow 0.3s 0.3s,-webkit-box-shadow 0.3s 0.3s
+    }
+
+    .sidebar.sidebar-right.open {
+        left: auto;
+        right: 0
+    }
+
+    .sidebar-toggle {
+        display: block;
+        z-index: 9895;
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        color: #606060;
+        font-size: 24px;
+        text-align: center;
+        background-color: #fff;
+        cursor: pointer;
+        position: fixed;
+        top: 50%;
+        left: 0;
+        -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.15);
+        box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.15);
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out
+    }
+
+    .sidebar-toggle:hover {
+        color: #999
+    }
+	
+    .sidebar-toggle.sidebar-toggle-right {
+        left: auto;
+        right: 0
+    }
+    .sidebar-toggle.sidebar-open {
+        left: -48px;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.15);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.15)
+    }
+    .sidebar-toggle.sidebar-open.sidebar-toggle-right {
+        left: auto;
+        right: -48px
+    }
+
+    .sidebar-close {
+        display: block;
+        color: #606060;
+        font-size: 24px;
+        cursor: pointer;
+        -webkit-transition: color 0.3s;
+        -o-transition: color 0.3s;
+        transition: color 0.3s;
+        position: absolute;
+        top: 8px;
+        right: 15px
+    }
+
+    .sidebar-close:hover {
+        color: #999
+    }
+
+    .sidebar::-webkit-scrollbar {
+        display: none
+    }
+}
+.widget_shopping_cart_content .cart-item {
+    position: relative;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 15px;
+    padding: 0 0 15px
+}
+
+.widget_shopping_cart_content .cart-item dl.variation {
+    display: none
+}
+
+.widget_shopping_cart_content .cart-item .item-thumb,.widget_shopping_cart_content .cart-item .item-details {
+    display: table-cell;
+    vertical-align: top
+}
+
+.widget_shopping_cart_content .cart-item .item-thumb {
+    width: 80px;
+    padding-right: 15px
+}
+
+.widget_shopping_cart_content .cart-item .item-thumb>img {
+    width: 100%
+}
+
+.widget_shopping_cart_content .cart-item .item-title {
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 20px;
+    margin-bottom: 6px
+}
+
+.widget_shopping_cart_content .cart-item .item-title>a {
+    color: #606060;
+    text-decoration: none
+}
+
+.widget_shopping_cart_content .cart-item .item-title>a:hover,.widget_shopping_cart_content .cart-item .item-title>a:focus {
+    color: #a6a6a6;
+    text-decoration: none
+}
+
+.widget_shopping_cart_content .cart-item .item-price {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 0
+}
+
+.widget_shopping_cart_content .cart-item .close-btn {
+    color: inherit;
+    font-size: 16px;
+    position: absolute;
+    top: -3px;
+    right: -4px
+}
+
+.widget_shopping_cart_content .cart-item .close-btn:hover {
+    color: #ef0568
+}
+
+.widget_shopping_cart_content .cart-subtotal {
+    display: table;
+    width: 100%
+}
+
+.widget_shopping_cart_content .cart-subtotal .column {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%
+}
+
+.widget_shopping_cart_content .cart-subtotal>span {
+    display: block;
+    font-size: 14px;
+    color: #999
+}
+
+.widget_shopping_cart_content .cart-subtotal .amount {
+    font-size: 14px;
+    color: #606060;
+    font-weight: 500;
+    text-align: right;
+    float: right
+}
+
+.widget_shopping_cart_content .cart-subtotal+.text-center,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error,.widget_shopping_cart_content .cart-subtotal+.wc-tabs,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 13px;
+    position: relative;
+    overflow: hidden
+}
+
+.widget_shopping_cart_content .cart-subtotal+.text-center .btn,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .btn,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .btn,.widget_shopping_cart_content .cart-subtotal+.wc-tabs .btn,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .btn,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .btn,.widget_shopping_cart_content .cart-subtotal+.text-center .back-btn,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .back-btn,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .back-btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .back-btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .back-btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .back-btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .back-btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .back-btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .back-btn,.widget_shopping_cart_content .cart-subtotal+.wc-tabs .back-btn,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .back-btn,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .back-btn,.widget_shopping_cart_content .cart-subtotal+.text-center .done-btn,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .done-btn,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .done-btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .done-btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .done-btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .done-btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .done-btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .done-btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .done-btn,.widget_shopping_cart_content .cart-subtotal+.wc-tabs .done-btn,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .done-btn,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .done-btn,.widget_shopping_cart_content .cart-subtotal+.text-center .search-btn,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .search-btn,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .search-btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .search-btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .search-btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .search-btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .search-btn,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .search-btn,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .search-btn,.widget_shopping_cart_content .cart-subtotal+.wc-tabs .search-btn,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .search-btn,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .search-btn,.widget_shopping_cart_content .cart-subtotal+.text-center .single-post article label+input[type="submit"],.single-post article .widget_shopping_cart_content .cart-subtotal+.text-center label+input[type="submit"],.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .single-post article label+input[type="submit"],.single-post article .widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before label+input[type="submit"],.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .single-post article label+input[type="submit"],.single-post article .widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before label+input[type="submit"],.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .single-post article label+input[type="submit"],.single-post article .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message label+input[type="submit"],.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .single-post article label+input[type="submit"],.single-post article .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message label+input[type="submit"],.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .single-post article label+input[type="submit"],.single-post article .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info label+input[type="submit"],.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .single-post article label+input[type="submit"],.single-post article .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info label+input[type="submit"],.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .single-post article label+input[type="submit"],.single-post article .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error label+input[type="submit"],.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .single-post article label+input[type="submit"],.single-post article .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error label+input[type="submit"],.widget_shopping_cart_content .cart-subtotal+.wc-tabs .single-post article label+input[type="submit"],.single-post article .widget_shopping_cart_content .cart-subtotal+.wc-tabs label+input[type="submit"],.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .single-post article label+input[type="submit"],.single-post article .widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul label+input[type="submit"],.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .single-post article label+input[type="submit"],.single-post article .woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul label+input[type="submit"],.widget_shopping_cart_content .cart-subtotal+.text-center .single_add_to_cart_button,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .single_add_to_cart_button,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .single_add_to_cart_button,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .single_add_to_cart_button,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .single_add_to_cart_button,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .single_add_to_cart_button,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .single_add_to_cart_button,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .single_add_to_cart_button,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .single_add_to_cart_button,.widget_shopping_cart_content .cart-subtotal+.wc-tabs .single_add_to_cart_button,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .single_add_to_cart_button,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .single_add_to_cart_button,.widget_shopping_cart_content .cart-subtotal+.text-center #place_order,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before #place_order,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before #place_order,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message #place_order,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message #place_order,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info #place_order,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info #place_order,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error #place_order,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error #place_order,.widget_shopping_cart_content .cart-subtotal+.wc-tabs #place_order,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul #place_order,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul #place_order,.widget_shopping_cart_content .cart-subtotal+.text-center .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .widget_shopping_cart_content .cart-subtotal+.text-center .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .woocommerce-orders-table__cell-order-actions>a,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .woocommerce-orders-table__cell-order-actions>a,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .woocommerce-orders-table__cell-order-actions>a,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .cart-subtotal+.wc-tabs .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .widget_shopping_cart_content .cart-subtotal+.wc-tabs .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .cart-subtotal+.text-center .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .widget_shopping_cart_content .cart-subtotal+.text-center .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .woocommerce-orders-table__cell-order-actions>a,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .woocommerce-orders-table__cell-order-actions>a,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .woocommerce-orders-table__cell-order-actions>a,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .cart-subtotal+.wc-tabs .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .widget_shopping_cart_content .cart-subtotal+.wc-tabs .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .woocommerce-orders-table__cell-order-actions>a,.widget_shopping_cart_content .cart-subtotal+.text-center .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .widget_shopping_cart_content .cart-subtotal+.text-center .woocommerce-widget-layered-nav-dropdown__submit,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .woocommerce-widget-layered-nav-dropdown__submit,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .woocommerce-widget-layered-nav-dropdown__submit,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .woocommerce-widget-layered-nav-dropdown__submit,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .woocommerce-widget-layered-nav-dropdown__submit,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .woocommerce-widget-layered-nav-dropdown__submit,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .woocommerce-widget-layered-nav-dropdown__submit,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .woocommerce-widget-layered-nav-dropdown__submit,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .woocommerce-widget-layered-nav-dropdown__submit,.widget_shopping_cart_content .cart-subtotal+.wc-tabs .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .widget_shopping_cart_content .cart-subtotal+.wc-tabs .woocommerce-widget-layered-nav-dropdown__submit,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .woocommerce-widget-layered-nav-dropdown__submit,.widget_shopping_cart_content .cart-subtotal+.text-center .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .widget_shopping_cart_content .cart-subtotal+.text-center .button,.widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .widget_shopping_cart_content .cart-subtotal+input[type="checkbox"]:checked::before .button,.widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .widget_shopping_cart_content .cart-subtotal+input[type="radio"]:checked::before .button,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-message .button,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-message .button,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-info .button,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-info .button,.widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .widget_shopping_cart_content .single-product .cart-subtotal+.woocommerce-error .button,.single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .single-product .widget_shopping_cart_content .cart-subtotal+.woocommerce-error .button,.widget_shopping_cart_content .cart-subtotal+.wc-tabs .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .widget_shopping_cart_content .cart-subtotal+.wc-tabs .button,.widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .widget_shopping_cart_content .woocommerce-MyAccount-navigation .cart-subtotal+ul .button,.woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .woocommerce-MyAccount-navigation .widget_shopping_cart_content .cart-subtotal+ul .button {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.widget_shopping_cart_content .cart-buttons {
+    display: table;
+    width: 100%
+}
+
+.widget_shopping_cart_content .cart-buttons .column {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%
+}
+
+.product_list_widget {
+    list-style: none;
+    margin-left: 0
+}
+
+.product_list_widget li {
+    padding: 1em 0
+}
+
+.product_list_widget li:before,.product_list_widget li:after {
+    content: " ";
+    display: table
+}
+
+.product_list_widget li:after {
+    clear: both
+}
+
+.product_list_widget li img {
+    max-width: 65px;
+    float: right
+}
+
+.product_list_widget li>a {
+    display: block
+}
+
+.product_list_widget li>.reviewer:before {
+    content: "\e0b9";
+    display: inline-block;
+    font-family: "Material Icons";
+    padding-right: 5px
+}
+
+.widget_recent_comments li.recentcomments:before {
+    content: "\e0b9";
+    display: inline-block;
+    font-family: "Material Icons";
+    padding-right: 5px
+}
+
+.wc-layered-nav-rating>a {
+    float: right;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    text-align: right
+}
+
+.wc-layered-nav-rating>a>.star-rating {
+    float: left
+}
+
+.widget_rating_filter>ul {
+    overflow: hidden;
+    position: relative
+}
+
+.subscribe-form,.widget_mc4wp_form_widget .mc4wp-form {
+    max-width: 365px;
+    margin: 0 auto
+}
+
+.subscribe-form .form-control,.subscribe-form .single-post article label input[type="password"],.single-post article label .subscribe-form input[type="password"],.subscribe-form .product-tools table.variations .form-select select,.product-tools table.variations .form-select .subscribe-form select,.subscribe-form .woocommerce-cart #calc_shipping_state,.woocommerce-cart .subscribe-form #calc_shipping_state,.subscribe-form .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .subscribe-form #calc_shipping_state,.subscribe-form #billing_first_name,.subscribe-form #shipping_first_name,.subscribe-form #billing_last_name,.subscribe-form #shipping_last_name,.subscribe-form #billing_email,.subscribe-form #shipping_email,.subscribe-form #billing_phone,.subscribe-form #shipping_phone,.subscribe-form #billing_address_1,.subscribe-form #shipping_address_1,.subscribe-form #billing_address_2,.subscribe-form #shipping_address_2,.subscribe-form #billing_company,.subscribe-form #shipping_company,.subscribe-form input#billing_state,.subscribe-form input#shipping_state,.subscribe-form #billing_postcode,.subscribe-form #shipping_postcode,.subscribe-form #billing_city,.subscribe-form #shipping_city,.subscribe-form #order_comments,.subscribe-form #account_username,.subscribe-form #account_password,.subscribe-form #account_password-2,.subscribe-form .select2-search__field,.subscribe-form .product-search-field,.subscribe-form #stripe-card-number,.subscribe-form #stripe-card-expiry,.subscribe-form #stripe-card-cvc,.subscribe-form #payment .wc-stripe-elements-field,#payment .subscribe-form .wc-stripe-elements-field,.subscribe-form .widget select,.widget .subscribe-form select,.widget_mc4wp_form_widget .mc4wp-form .form-control,.widget_mc4wp_form_widget .mc4wp-form .single-post article label input[type="password"],.single-post article label .widget_mc4wp_form_widget .mc4wp-form input[type="password"],.widget_mc4wp_form_widget .mc4wp-form .product-tools table.variations .form-select select,.product-tools table.variations .form-select .widget_mc4wp_form_widget .mc4wp-form select,.widget_mc4wp_form_widget .mc4wp-form .woocommerce-cart #calc_shipping_state,.woocommerce-cart .widget_mc4wp_form_widget .mc4wp-form #calc_shipping_state,.widget_mc4wp_form_widget .mc4wp-form .woocommerce-checkout #calc_shipping_state,.woocommerce-checkout .widget_mc4wp_form_widget .mc4wp-form #calc_shipping_state,.widget_mc4wp_form_widget .mc4wp-form #billing_first_name,.widget_mc4wp_form_widget .mc4wp-form #shipping_first_name,.widget_mc4wp_form_widget .mc4wp-form #billing_last_name,.widget_mc4wp_form_widget .mc4wp-form #shipping_last_name,.widget_mc4wp_form_widget .mc4wp-form #billing_email,.widget_mc4wp_form_widget .mc4wp-form #shipping_email,.widget_mc4wp_form_widget .mc4wp-form #billing_phone,.widget_mc4wp_form_widget .mc4wp-form #shipping_phone,.widget_mc4wp_form_widget .mc4wp-form #billing_address_1,.widget_mc4wp_form_widget .mc4wp-form #shipping_address_1,.widget_mc4wp_form_widget .mc4wp-form #billing_address_2,.widget_mc4wp_form_widget .mc4wp-form #shipping_address_2,.widget_mc4wp_form_widget .mc4wp-form #billing_company,.widget_mc4wp_form_widget .mc4wp-form #shipping_company,.widget_mc4wp_form_widget .mc4wp-form input#billing_state,.widget_mc4wp_form_widget .mc4wp-form input#shipping_state,.widget_mc4wp_form_widget .mc4wp-form #billing_postcode,.widget_mc4wp_form_widget .mc4wp-form #shipping_postcode,.widget_mc4wp_form_widget .mc4wp-form #billing_city,.widget_mc4wp_form_widget .mc4wp-form #shipping_city,.widget_mc4wp_form_widget .mc4wp-form #order_comments,.widget_mc4wp_form_widget .mc4wp-form #account_username,.widget_mc4wp_form_widget .mc4wp-form #account_password,.widget_mc4wp_form_widget .mc4wp-form #account_password-2,.widget_mc4wp_form_widget .mc4wp-form .select2-search__field,.widget_mc4wp_form_widget .mc4wp-form .product-search-field,.widget_mc4wp_form_widget .mc4wp-form #stripe-card-number,.widget_mc4wp_form_widget .mc4wp-form #stripe-card-expiry,.widget_mc4wp_form_widget .mc4wp-form #stripe-card-cvc,.widget_mc4wp_form_widget .mc4wp-form #payment .wc-stripe-elements-field,#payment .widget_mc4wp_form_widget .mc4wp-form .wc-stripe-elements-field,.widget_mc4wp_form_widget .mc4wp-form .widget select,.widget .widget_mc4wp_form_widget .mc4wp-form select {
+    border-color: #e5e5e5
+}
+
+.subscribe-form .form-control:focus,.subscribe-form .single-post article label input[type="password"]:focus,.single-post article label .subscribe-form input[type="password"]:focus,.subscribe-form .product-tools table.variations .form-select select:focus,.product-tools table.variations .form-select .subscribe-form select:focus,.subscribe-form .woocommerce-cart #calc_shipping_state:focus,.woocommerce-cart .subscribe-form #calc_shipping_state:focus,.subscribe-form .woocommerce-checkout #calc_shipping_state:focus,.woocommerce-checkout .subscribe-form #calc_shipping_state:focus,.subscribe-form #billing_first_name:focus,.subscribe-form #shipping_first_name:focus,.subscribe-form #billing_last_name:focus,.subscribe-form #shipping_last_name:focus,.subscribe-form #billing_email:focus,.subscribe-form #shipping_email:focus,.subscribe-form #billing_phone:focus,.subscribe-form #shipping_phone:focus,.subscribe-form #billing_address_1:focus,.subscribe-form #shipping_address_1:focus,.subscribe-form #billing_address_2:focus,.subscribe-form #shipping_address_2:focus,.subscribe-form #billing_company:focus,.subscribe-form #shipping_company:focus,.subscribe-form input#billing_state:focus,.subscribe-form input#shipping_state:focus,.subscribe-form #billing_postcode:focus,.subscribe-form #shipping_postcode:focus,.subscribe-form #billing_city:focus,.subscribe-form #shipping_city:focus,.subscribe-form #order_comments:focus,.subscribe-form #account_username:focus,.subscribe-form #account_password:focus,.subscribe-form #account_password-2:focus,.subscribe-form .select2-search__field:focus,.subscribe-form .product-search-field:focus,.subscribe-form #stripe-card-number:focus,.subscribe-form #stripe-card-expiry:focus,.subscribe-form #stripe-card-cvc:focus,.subscribe-form #payment .wc-stripe-elements-field:focus,#payment .subscribe-form .wc-stripe-elements-field:focus,.subscribe-form .widget select:focus,.widget .subscribe-form select:focus,.widget_mc4wp_form_widget .mc4wp-form .form-control:focus,.widget_mc4wp_form_widget .mc4wp-form .single-post article label input[type="password"]:focus,.single-post article label .widget_mc4wp_form_widget .mc4wp-form input[type="password"]:focus,.widget_mc4wp_form_widget .mc4wp-form .product-tools table.variations .form-select select:focus,.product-tools table.variations .form-select .widget_mc4wp_form_widget .mc4wp-form select:focus,.widget_mc4wp_form_widget .mc4wp-form .woocommerce-cart #calc_shipping_state:focus,.woocommerce-cart .widget_mc4wp_form_widget .mc4wp-form #calc_shipping_state:focus,.widget_mc4wp_form_widget .mc4wp-form .woocommerce-checkout #calc_shipping_state:focus,.woocommerce-checkout .widget_mc4wp_form_widget .mc4wp-form #calc_shipping_state:focus,.widget_mc4wp_form_widget .mc4wp-form #billing_first_name:focus,.widget_mc4wp_form_widget .mc4wp-form #shipping_first_name:focus,.widget_mc4wp_form_widget .mc4wp-form #billing_last_name:focus,.widget_mc4wp_form_widget .mc4wp-form #shipping_last_name:focus,.widget_mc4wp_form_widget .mc4wp-form #billing_email:focus,.widget_mc4wp_form_widget .mc4wp-form #shipping_email:focus,.widget_mc4wp_form_widget .mc4wp-form #billing_phone:focus,.widget_mc4wp_form_widget .mc4wp-form #shipping_phone:focus,.widget_mc4wp_form_widget .mc4wp-form #billing_address_1:focus,.widget_mc4wp_form_widget .mc4wp-form #shipping_address_1:focus,.widget_mc4wp_form_widget .mc4wp-form #billing_address_2:focus,.widget_mc4wp_form_widget .mc4wp-form #shipping_address_2:focus,.widget_mc4wp_form_widget .mc4wp-form #billing_company:focus,.widget_mc4wp_form_widget .mc4wp-form #shipping_company:focus,.widget_mc4wp_form_widget .mc4wp-form input#billing_state:focus,.widget_mc4wp_form_widget .mc4wp-form input#shipping_state:focus,.widget_mc4wp_form_widget .mc4wp-form #billing_postcode:focus,.widget_mc4wp_form_widget .mc4wp-form #shipping_postcode:focus,.widget_mc4wp_form_widget .mc4wp-form #billing_city:focus,.widget_mc4wp_form_widget .mc4wp-form #shipping_city:focus,.widget_mc4wp_form_widget .mc4wp-form #order_comments:focus,.widget_mc4wp_form_widget .mc4wp-form #account_username:focus,.widget_mc4wp_form_widget .mc4wp-form #account_password:focus,.widget_mc4wp_form_widget .mc4wp-form #account_password-2:focus,.widget_mc4wp_form_widget .mc4wp-form .select2-search__field:focus,.widget_mc4wp_form_widget .mc4wp-form .product-search-field:focus,.widget_mc4wp_form_widget .mc4wp-form #stripe-card-number:focus,.widget_mc4wp_form_widget .mc4wp-form #stripe-card-expiry:focus,.widget_mc4wp_form_widget .mc4wp-form #stripe-card-cvc:focus,.widget_mc4wp_form_widget .mc4wp-form #payment .wc-stripe-elements-field:focus,#payment .widget_mc4wp_form_widget .mc4wp-form .wc-stripe-elements-field:focus,.widget_mc4wp_form_widget .mc4wp-form .widget select:focus,.widget .widget_mc4wp_form_widget .mc4wp-form select:focus {
+    border-color: #77cde3 !important
+}
+
+.subscribe-form button[type='submit'],.widget_mc4wp_form_widget .mc4wp-form button[type='submit'] {
+    display: block;
+    font-size: 20px;
+    border: none;
+    margin-top: -19px;
+    background: none;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+    position: absolute;
+    top: 50%;
+    right: 7px
+}
+
+.subscribe-form button[type='submit']:focus,.widget_mc4wp_form_widget .mc4wp-form button[type='submit']:focus {
+    outline: none
+}
+
+.subscribe-form button[type='submit']:hover,.widget_mc4wp_form_widget .mc4wp-form button[type='submit']:hover {
+    color: #77cde3
+}
+
+.btn-default:focus,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit:focus,.widget_price_filter .price_slider_amount .button:focus {
+    color: #606060
+}
+
+.btn-ghost,.search-btn,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .button {
+    background-color: transparent;
+    color: #e5e5e5;
+    border-color: #e5e5e5
+}
+
+.btn-ghost:hover,.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .button:hover {
+    color: #fff;
+    background-color: #e5e5e5
+}
+
+.btn-ghost.btn-default,.btn-default.search-btn,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .button {
+    background-color: transparent;
+    color: #e5e5e5;
+    border-color: #e5e5e5
+}
+
+.btn-ghost.btn-default:hover,.btn-default.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .button:hover {
+    color: #fff;
+    background-color: #e5e5e5
+}
+
+.btn-ghost.btn-primary,.btn-primary.search-btn,.single-post article label+input.search-btn[type="submit"],.search-btn.single_add_to_cart_button,.search-btn#place_order,.account-orders-table .woocommerce-orders-table__cell-order-actions>a.search-btn,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.search-btn,.single-post article label+input.btn-ghost[type="submit"],.single-post article .woocommerce-widget-layered-nav-dropdown label+input[type="submit"].woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .single-post article label+input[type="submit"].woocommerce-widget-layered-nav-dropdown__submit,.single-post article .widget_price_filter .price_slider_amount label+input[type="submit"].button,.widget_price_filter .price_slider_amount .single-post article label+input[type="submit"].button,.btn-ghost.single_add_to_cart_button,.woocommerce-widget-layered-nav-dropdown .single_add_to_cart_button.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .single_add_to_cart_button.button,.btn-ghost#place_order,.woocommerce-widget-layered-nav-dropdown #place_order.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount #place_order.button,.account-orders-table .woocommerce-orders-table__cell-order-actions>a.btn-ghost,.account-orders-table .woocommerce-widget-layered-nav-dropdown .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .account-orders-table .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit,.account-orders-table .widget_price_filter .price_slider_amount .woocommerce-orders-table__cell-order-actions>a.button,.widget_price_filter .price_slider_amount .account-orders-table .woocommerce-orders-table__cell-order-actions>a.button,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.btn-ghost,.woocommerce-MyAccount-downloads .woocommerce-widget-layered-nav-dropdown .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-MyAccount-downloads .widget_price_filter .price_slider_amount .woocommerce-orders-table__cell-order-actions>a.button,.widget_price_filter .price_slider_amount .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.button,.woocommerce-widget-layered-nav-dropdown .btn-primary.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .btn-primary.button {
+    background-color: transparent;
+    color: #77cde3;
+    border-color: #77cde3
+}
+
+.btn-ghost.btn-primary:hover,.btn-primary.search-btn:hover,.single-post article label+input.search-btn[type="submit"]:hover,.search-btn.single_add_to_cart_button:hover,.search-btn#place_order:hover,.account-orders-table .woocommerce-orders-table__cell-order-actions>a.search-btn:hover,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.search-btn:hover,.single-post article label+input.btn-ghost[type="submit"]:hover,.single-post article .woocommerce-widget-layered-nav-dropdown label+input[type="submit"].woocommerce-widget-layered-nav-dropdown__submit:hover,.woocommerce-widget-layered-nav-dropdown .single-post article label+input[type="submit"].woocommerce-widget-layered-nav-dropdown__submit:hover,.single-post article .widget_price_filter .price_slider_amount label+input[type="submit"].button:hover,.widget_price_filter .price_slider_amount .single-post article label+input[type="submit"].button:hover,.btn-ghost.single_add_to_cart_button:hover,.woocommerce-widget-layered-nav-dropdown .single_add_to_cart_button.woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .single_add_to_cart_button.button:hover,.btn-ghost#place_order:hover,.woocommerce-widget-layered-nav-dropdown #place_order.woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount #place_order.button:hover,.account-orders-table .woocommerce-orders-table__cell-order-actions>a.btn-ghost:hover,.account-orders-table .woocommerce-widget-layered-nav-dropdown .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit:hover,.woocommerce-widget-layered-nav-dropdown .account-orders-table .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit:hover,.account-orders-table .widget_price_filter .price_slider_amount .woocommerce-orders-table__cell-order-actions>a.button:hover,.widget_price_filter .price_slider_amount .account-orders-table .woocommerce-orders-table__cell-order-actions>a.button:hover,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.btn-ghost:hover,.woocommerce-MyAccount-downloads .woocommerce-widget-layered-nav-dropdown .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit:hover,.woocommerce-widget-layered-nav-dropdown .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit:hover,.woocommerce-MyAccount-downloads .widget_price_filter .price_slider_amount .woocommerce-orders-table__cell-order-actions>a.button:hover,.widget_price_filter .price_slider_amount .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.button:hover,.woocommerce-widget-layered-nav-dropdown .btn-primary.woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .btn-primary.button:hover {
+    color: #fff;
+    background-color: #77cde3
+}
+
+.btn-ghost.btn-success,.btn-success.search-btn,.woocommerce-widget-layered-nav-dropdown .btn-success.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .btn-success.button {
+    background-color: transparent;
+    color: #a7c04d;
+    border-color: #a7c04d
+}
+
+.btn-ghost.btn-success:hover,.btn-success.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .btn-success.woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .btn-success.button:hover {
+    color: #fff;
+    background-color: #a7c04d
+}
+
+.btn-ghost.btn-info,.btn-info.search-btn,.woocommerce-widget-layered-nav-dropdown .btn-info.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .btn-info.button {
+    background-color: transparent;
+    color: #93c4ef;
+    border-color: #93c4ef
+}
+
+.btn-ghost.btn-info:hover,.btn-info.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .btn-info.woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .btn-info.button:hover {
+    color: #fff;
+    background-color: #93c4ef
+}
+
+.btn-ghost.btn-warning,.btn-warning.search-btn,.woocommerce-widget-layered-nav-dropdown .btn-warning.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .btn-warning.button {
+    background-color: transparent;
+    color: #ffce2b;
+    border-color: #ffce2b
+}
+
+.btn-ghost.btn-warning:hover,.btn-warning.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .btn-warning.woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .btn-warning.button:hover {
+    color: #fff;
+    background-color: #ffce2b
+}
+
+.btn-ghost.btn-danger,.btn-danger.search-btn,.woocommerce-widget-layered-nav-dropdown .btn-danger.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .btn-danger.button {
+    background-color: transparent;
+    color: #ef0568;
+    border-color: #ef0568
+}
+
+.btn-ghost.btn-danger:hover,.btn-danger.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .btn-danger.woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .btn-danger.button:hover {
+    color: #fff;
+    background-color: #ef0568
+}
+
+.btn-ghost.btn-light,.btn-light.search-btn,.woocommerce-widget-layered-nav-dropdown .btn-light.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .btn-light.button {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff
+}
+
+.btn-ghost.btn-light:hover,.btn-light.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .btn-light.woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .btn-light.button:hover {
+    color: #fff;
+    background-color: #fff
+}
+
+.btn-ghost.btn-light:hover,.btn-light.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .btn-light.woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .btn-light.button:hover {
+    color: #333
+}
+
+.btn-ghost,.search-btn,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .button,.btn-ghost.btn-default,.btn-default.search-btn,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .button {
+    color: #606060
+}
+
+.btn-ghost:hover,.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .button:hover,.btn-ghost.btn-default:hover,.btn-default.search-btn:hover,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit:hover,.widget_price_filter .price_slider_amount .button:hover {
+    color: #606060
+}
+
+.btn-sm,.back-btn,.done-btn,.single_add_to_cart_button,.account-orders-table .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .button {
+    height: 36px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 33px;
+    border-radius: 4px;
+    padding: 0 15px
+}
+
+.btn-sm.btn-ghost,.btn-ghost.back-btn,.back-btn.search-btn,.btn-ghost.done-btn,.done-btn.search-btn,.btn-sm.search-btn,.search-btn.single_add_to_cart_button,.account-orders-table .woocommerce-orders-table__cell-order-actions>a.search-btn,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.search-btn,.btn-ghost.single_add_to_cart_button,.account-orders-table .woocommerce-orders-table__cell-order-actions>a.btn-ghost,.account-orders-table .woocommerce-widget-layered-nav-dropdown .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .account-orders-table .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.btn-ghost,.woocommerce-MyAccount-downloads .woocommerce-widget-layered-nav-dropdown .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .button {
+    font-weight: normal
+}
+.btn-pill.btn-sm,.btn-pill.back-btn,.btn-pill.done-btn,.btn-pill.single_add_to_cart_button,.account-orders-table .woocommerce-orders-table__cell-order-actions>a.btn-pill,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.btn-pill,.woocommerce-widget-layered-nav-dropdown .btn-pill.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .btn-pill.button {
+    border-radius: 18px
+}
+.btn-icon-left.btn-sm,.btn-icon-left.back-btn,.btn-icon-left.done-btn,.btn-icon-left.single_add_to_cart_button,.account-orders-table .woocommerce-orders-table__cell-order-actions>a.btn-icon-left,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.btn-icon-left,.woocommerce-widget-layered-nav-dropdown .btn-icon-left.woocommerce-widget-layered-nav-dropdown__submit,.widget_price_filter .price_slider_amount .btn-icon-left.button {
+    padding-left: 12px
+}
+
+.btn-icon-left.btn-sm i,.btn-icon-left.back-btn i,.btn-icon-left.done-btn i,.btn-icon-left.single_add_to_cart_button i,.account-orders-table .woocommerce-orders-table__cell-order-actions>a.btn-icon-left i,.woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a.btn-icon-left i,.woocommerce-widget-layered-nav-dropdown .btn-icon-left.woocommerce-widget-layered-nav-dropdown__submit i,.widget_price_filter .price_slider_amount .btn-icon-left.button i {
+    margin-right: 5px
+}
+
+.material-icons.remove_shopping_cart:before{content:"\e928"}
+.material-icons.filter_list:before{content:"\e152"}
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+.cart-collaterals table th, .cart-collaterals table td {
+    font-weight: 400;
+    padding-right: 0;
+    padding-left: 0;
+}
+table>thead>tr>th, 
+table>thead>tr>td, 
+table>tbody>tr>th, 
+table>tbody>tr>td, 
+table>tfoot>tr>th, 
+table>tfoot>tr>td {
+    line-height: 1.5;
+    vertical-align: top;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
+.text-right,.cart-collaterals table td,.woocommerce-checkout-review-order-table tbody td:last-of-type,.woocommerce-checkout-review-order-table tfoot tr td,.order_details thead th:last-of-type,.customer_details thead th:last-of-type,.order_details tbody td:last-of-type,.customer_details tbody td:last-of-type,.order_details tfoot tr td,.customer_details tfoot tr td {
+    text-align: right
+}
+.woocommerce-cart #shipping_method,.woocommerce-checkout #shipping_method {
+    display: inline-block;
+    list-style: none;
+    padding: 0
+}
+.woocommerce-cart #shipping_method li,.woocommerce-checkout #shipping_method li {
+    text-align: left;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 2px;
+    -ms-grid-columns: 30px 1fr;
+    grid-template-columns: 30px 1fr
+}
+.shopping-cart {
+    width: 100%
+}
+
+.shopping-cart .item {
+    position: relative;
+    display: table;
+    width: 100%;
+    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 30px;
+    padding: 0 45px 30px 0
+}
+
+.shopping-cart .item .item-thumb,.shopping-cart .item .item-details {
+    display: table-cell;
+    vertical-align: top
+}
+
+.shopping-cart .item .item-thumb {
+    width: 165px;
+    padding-right: 25px
+}
+
+.shopping-cart .item .item-thumb>img {
+    width: 100%
+}
+
+.shopping-cart .item .item-title {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 12px
+}
+
+.shopping-cart .item .item-title>a {
+    color: #606060;
+    text-decoration: none
+}
+
+.shopping-cart .item .item-title>a:hover,.shopping-cart .item .item-title>a:focus {
+    color: #a6a6a6;
+    text-decoration: none
+}
+
+.shopping-cart .item .item-price {
+    font-size: 18px;
+    color: #999;
+    font-weight: 500
+}
+
+.shopping-cart .item .item-remove {
+    display: block;
+    font-size: 20px;
+    color: #606060;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    bottom: 0
+}
+
+.shopping-cart .item .item-remove>i {
+    line-height: 33px
+}
+
+.shopping-cart .item .item-remove:hover {
+    color: #ef0568
+}
+
+.shopping-cart .btn,.shopping-cart .back-btn,.shopping-cart .done-btn,.shopping-cart .search-btn,.shopping-cart .single-post article label+input[type="submit"],.single-post article .shopping-cart label+input[type="submit"],.shopping-cart .single_add_to_cart_button,.shopping-cart #place_order,.shopping-cart .account-orders-table .woocommerce-orders-table__cell-order-actions>a,.account-orders-table .shopping-cart .woocommerce-orders-table__cell-order-actions>a,.shopping-cart .woocommerce-MyAccount-downloads .woocommerce-orders-table__cell-order-actions>a,.woocommerce-MyAccount-downloads .shopping-cart .woocommerce-orders-table__cell-order-actions>a,.shopping-cart .woocommerce-widget-layered-nav-dropdown .woocommerce-widget-layered-nav-dropdown__submit,.woocommerce-widget-layered-nav-dropdown .shopping-cart .woocommerce-widget-layered-nav-dropdown__submit,.shopping-cart .widget_price_filter .price_slider_amount .button,.widget_price_filter .price_slider_amount .shopping-cart .button {
+    margin-top: 0
+}
+
+@media screen and (max-width: 480px) {
+    .shopping-cart .item {
+        padding-bottom:20px
+    }
+
+    .shopping-cart .item .item-thumb,.shopping-cart .item .item-details {
+        display: block
+    }
+
+    .shopping-cart .item .item-thumb {
+        margin-bottom: 20px
+    }
+}
+
+.woocommerce-message {
+    list-style: none;
+    margin-bottom: 14px
+}
+
+.woocommerce-info {
+    list-style: none;
+    margin-bottom: 14px
+}
+
+.woocommerce-error {
+    padding-left: 0;
+    margin-bottom: 14px;
+    line-height: inherit;
+    list-style: none
+}
+
+.single-product .woocommerce-message,.single-product .woocommerce-info,.single-product .woocommerce-error {
+    color: inherit !important
+}
+
+.single-product .product-tools .variations tbody tr>td {
+    padding-top: 0
+}
+
+.single-product .product-tools .variations tbody tr:first-of-type>td {
+    padding-top: 15px
+}
+
+.single-product .product-tools .variations tbody tr:only-child>td {
+    padding-top: 15px
+}
+
+.single-product .bs3-grid-builder-container {
+    padding: 0;
+    max-width: 100%
+}
+
+.single-product .apple-pay-button-wrapper {
+    height: 36px !important;
+    display: inline-block !important;
+    margin: 12px !important
+}
+
+.single-product .apple-pay-button-wrapper .apple-pay-button {
+    height: 36px !important;
+    float: none !important;
+    max-width: inherit !important;
+    margin-right: 0 !important
+}
+
+.single-product .apple-pay-button-wrapper+button[name="add-to-cart"] {
+    margin: 0 !important
+}
+
+.single-product table.shop_attributes {
+    margin-bottom: 0
+}
+
+.single-product table.shop_attributes tbody>tr:last-of-type>td {
+    border-bottom: none
+}
+
+.single-product table.shop_attributes tbody>tr:last-of-type>th {
+    padding-left: 0;
+    border-bottom: none
+}
+
+.single-product .fw-section .star-rating {
+    height: auto
+}
+
+@media screen and (min-width: 768px) {
+    .cart-coupon .coupon-input {
+        padding-left:0
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cart-coupon .coupon-input {
+        padding-left:0 !important;
+        padding-right: 0 !important
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cart-coupon .coupon-btn {
+        padding-right:0
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cart-coupon .coupon-btn {
+        padding-left:0 !important;
+        padding-right: 0 !important
+    }
+}
+
+.cart-coupon .woocommerce-message,.cart-coupon .woocommerce-info,.cart-coupon .woocommerce-error {
+    padding: 0 !important
+}
+
+.checkout_coupon {
+    overflow: hidden;
+    zoom:inherit !important;display: block !important;
+    position: relative !important;
+    height: 100% !important
+}
+
+.cart-collaterals table th,.cart-collaterals table td {
+    font-weight: 400;
+    padding-right: 0;
+    padding-left: 0
+}
+
+.cart-collaterals table td strong {
+    font-weight: 400
+}
+
+.woocommerce-cart form.woocommerce-checkout,.woocommerce-checkout form.woocommerce-checkout {
+    clear: both;
+    overflow: hidden
+}
+
+.woocommerce-cart .woocommerce-message,.woocommerce-cart .woocommerce-info,.woocommerce-cart .woocommerce-error,.woocommerce-checkout .woocommerce-message,.woocommerce-checkout .woocommerce-info,.woocommerce-checkout .woocommerce-error {
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.woocommerce-cart .cart-empty,.woocommerce-cart .return-to-shop,.woocommerce-checkout .cart-empty,.woocommerce-checkout .return-to-shop {
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.woocommerce-cart .cart-dropdown,.woocommerce-checkout .cart-dropdown {
+    display: none !important
+}
+
+.woocommerce-cart .form-row.create-account,.woocommerce-checkout .form-row.create-account {
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.woocommerce-cart label[for="rememberme"],.woocommerce-checkout label[for="rememberme"] {
+    font-weight: 400;
+    padding-left: 2px
+}
+
+.woocommerce-cart div.create-account>p:not(.form-row):first-of-type,.woocommerce-cart form.login-form>p:not(.form-row):first-of-type,.woocommerce-checkout div.create-account>p:not(.form-row):first-of-type,.woocommerce-checkout form.login-form>p:not(.form-row):first-of-type {
+    font-style: italic;
+    font-size: 11px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.woocommerce-cart #order_comments,.woocommerce-checkout #order_comments {
+    resize: none
+}
+
+.woocommerce-cart #shipping_method input[type="radio"],.woocommerce-checkout #shipping_method input[type="radio"] {
+    float: none;
+    display: inherit;
+    margin: 0
+}
+
+.woocommerce-cart #shipping_method input[type="radio"]+label,.woocommerce-checkout #shipping_method input[type="radio"]+label {
+    float: none;
+    display: block;
+    margin: 0;
+    padding-top: 3px
+}
+
+.woocommerce-cart .item.cart_item .variation,.woocommerce-checkout .item.cart_item .variation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 0
+}
+
+.woocommerce-cart .item.cart_item .variation dt,.woocommerce-checkout .item.cart_item .variation dt {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 0
+}
+
+.woocommerce-cart .item.cart_item .variation dd,.woocommerce-checkout .item.cart_item .variation dd {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 90%;
+    flex-basis: 90%;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    clear: right;
+    padding-left: 5px
+}
+
+.woocommerce-cart .item.cart_item .variation dd p,.woocommerce-checkout .item.cart_item .variation dd p {
+    margin: 0
+}
+
+a.woocommerce-remove-coupon {
+    color: #606060
+}
+
+a.woocommerce-remove-coupon:hover {
+    color: #ef0568
+}
+
+.woocommerce-checkout-review-order-table tbody td {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.woocommerce-checkout-review-order-table tfoot tr th {
+    font-weight: 400;
+    padding-right: 0;
+    padding-left: 0
+}
+
+.woocommerce-checkout-review-order-table tfoot tr td {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.woocommerce-checkout-review-order-table tfoot tr td strong {
+    font-weight: 400
+}
+
+.woocommerce-checkout-review-order-table dl.variation dt {
+    float: left;
+    display: inline-block;
+    font-weight: normal;
+    padding-right: 5px
+}
+
+.woocommerce-checkout-review-order-table dl.variation dd {
+    clear: right
+}
+
+.order_details thead th,.customer_details thead th {
+    font-weight: 400;
+    padding-right: 3px;
+    padding-left: 3px
+}
+
+.order_details tbody th,.customer_details tbody th {
+    font-weight: 400;
+    padding-right: 3px;
+    padding-left: 3px
+}
+
+.order_details tbody td,.customer_details tbody td {
+    padding-right: 3px;
+    padding-left: 3px
+}
+
+.order_details tfoot tr th,.customer_details tfoot tr th {
+    font-weight: 400;
+    padding-right: 3px;
+    padding-left: 3px
+}
+
+.order_details tfoot tr td,.customer_details tfoot tr td {
+    padding-right: 3px;
+    padding-left: 3px
+}
+
+.order_details tfoot tr td strong,.customer_details tfoot tr td strong {
+    font-weight: 400
+}
+
+.woocommerce-billing-fields {
+    overflow: hidden;
+    position: relative
+}
+
+.woocommerce-shipping-fields {
+    overflow: hidden;
+    position: relative
+}
+
+.woocommerce-shipping-fields #ship-to-different-address {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px
+}
+
+.woocommerce-shipping-fields label[for="ship-to-different-address-checkbox"] {
+    display: inline-block
+}
+
+#wc-stripe-cc-form {
+    border: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+#wc-stripe-cc-form>.form-row:first-of-type {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%
+}
+
+#wc-stripe-cc-form>.form-row:first-of-type input {
+    width: 100% !important;
+    margin: 0 !important
+}
+
+#wc-stripe-cc-form>.form-row.form-row-first {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 48%;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-right: 4px
+}
+
+#wc-stripe-cc-form>.form-row.form-row-first input {
+    width: 100% !important;
+    margin: 0 !important
+}
+
+#wc-stripe-cc-form>.form-row.form-row-last {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 48%;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin-left: 4px
+}
+
+#wc-stripe-cc-form>.form-row.form-row-last input {
+    width: 100% !important;
+    margin: 0 !important
+}
+
+#wc-stripe-cc-form>.woocommerce-error {
+    padding: 0
+}
+
+#billing_country_field .select2-container .select2-selection,
+#billing_state_field .select2-container .select2-selection,
+#shipping_country_field .select2-container .select2-selection,
+#shipping_state_field .select2-container .select2-selection,
+#calc_shipping_country_field .select2-container .select2-selection,
+#calc_shipping_state_field .select2-container .select2-selection,
+.woocommerce-widget-layered-nav .select2-container .select2-selection {
+    height: auto;
+    outline: none !important;
+    text-align: left;
+    font-size: 14px;
+    color: #606060;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0 16px
+}
+
+#billing_country_field .select2-container .select2-selection .select2-selection__rendered,
+#billing_state_field .select2-container .select2-selection .select2-selection__rendered,
+#shipping_country_field .select2-container .select2-selection .select2-selection__rendered,
+#shipping_state_field .select2-container .select2-selection .select2-selection__rendered,
+#calc_shipping_country_field .select2-container .select2-selection .select2-selection__rendered,
+#calc_shipping_state_field .select2-container .select2-selection .select2-selection__rendered,
+.woocommerce-widget-layered-nav .select2-container .select2-selection .select2-selection__rendered {
+    line-height: 3.1;
+    padding: 0
+}
+
+#billing_country_field .select2-container .select2-selection .select2-selection__arrow,
+#billing_state_field .select2-container .select2-selection .select2-selection__arrow,
+#shipping_country_field .select2-container .select2-selection .select2-selection__arrow,
+#shipping_state_field .select2-container .select2-selection .select2-selection__arrow,
+#calc_shipping_country_field .select2-container .select2-selection .select2-selection__arrow,
+#calc_shipping_state_field .select2-container .select2-selection .select2-selection__arrow,
+.woocommerce-widget-layered-nav .select2-container .select2-selection .select2-selection__arrow {
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+#billing_country_field .select2-container.select2-container--open .select2-selection,
+#billing_state_field .select2-container.select2-container--open .select2-selection,
+#shipping_country_field .select2-container.select2-container--open .select2-selection,
+#shipping_state_field .select2-container.select2-container--open .select2-selection,
+#calc_shipping_country_field .select2-container.select2-container--open .select2-selection,
+#calc_shipping_state_field .select2-container.select2-container--open .select2-selection,
+.woocommerce-widget-layered-nav .select2-container.select2-container--open .select2-selection {
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.shipping-calculator-form #calc_shipping_country_field:before {
+    content: none
+}
+
+.select2-container--open .select2-dropdown--below {
+    border: 2px solid #e5e5e5;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-color: transparent;
+    background-color: #fff
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #77cde3
+}
+
+.select2-container--default .select2-search__field {
+    border: 2px solid #e5e5e5 !important;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0 16px
+}
+
+.select2-results__option {
+    padding: 0 16px;
+    outline: none !important
+}
+
+.select2-container .select2-choice {
+    line-height: 3.1;
+    font-size: 14px;
+    color: #606060;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0 16px
+}
+
+.select2-drop-active {
+    border: 2px solid #e5e5e5;
+    border-top-color: transparent
+}
+
+.woocommerce-invalid:before {
+    right: 30px
+}
+
+.woocommerce-validated:before {
+    right: 30px
+}
+
+.create-account .input-radio,.create-account .input-checkbox {
+    float: left;
+    display: inline-block;
+    margin-right: 7px
+}
+
+.create-account .input-radio+label,.create-account .input-checkbox+label {
+    padding-top: 6px
+}
+
+.create-account .input-radio+span,.create-account .input-checkbox+span {
+    display: table-cell
+}
+
+#payment .wc_payment_methods {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+#payment .wc_payment_methods .woocommerce-notice {
+    font-size: 14px;
+    padding: 0
+}
+
+#payment .woocommerce-privacy-policy-text {
+    font-size: 14px
+}
+
+#payment .input-radio,#payment .input-checkbox {
+    float: left;
+    display: inline-block;
+    margin-right: 7px
+}
+
+#payment .input-radio+label,#payment .input-checkbox+label {
+    padding-top: 3px
+}
+
+#payment .input-checkbox {
+    top: 0
+}
+
+#payment .payment_box>p,#payment #stripe-payment-data>p {
+    font-style: italic;
+    font-size: 11px
+}
+
+#payment .payment_box>p>label,#payment #stripe-payment-data>p>label {
+    font-style: normal
+}
+
+#payment img {
+    float: right
+}
+
+#payment .wc-stripe-elements-field {
+    padding-top: 13px;
+    margin-right: 10px
+}
+
+#payment ul.woocommerce-SavedPaymentMethods {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px
+}
+
+#payment .stripe-source-errors .wc-stripe-error {
+    padding: 0
+}
+
+#payment label[for="wc-stripe-new-payment-method"] {
+    font-weight: normal !important
+}
+
+#payment input#payment_method_stripe {
+    position: relative !important
+}
+
+@media screen and (min-width: 1200px) {
+    #payment img.stripe-icon {
+        max-width:30px !important
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #payment img.stripe-icon {
+        max-width:inherit
+    }
+}
+
+.page-nav {
+    display: block;
+    position: absolute;
+    top: 30%;
+    color: #393939;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 10;
+    margin-top: -11px
+}
+
+.page-nav.page-prev {
+    left: 30px;
+    max-width: 110px;
+    text-align: left
+}
+
+.page-nav.page-next {
+    max-width: 110px;
+    right: 30px;
+    text-align: right
+}
+.page-nav .page-preview {
+    display: block;
+    position: absolute;
+    width: 80px;
+    top: -80px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s
+}
+.product-gallery {
+    position: relative;
+    width: 100%;
+    max-width: 660px;
+    margin: auto
+}
+
+.product-gallery .product-gallery-preview {
+    display: block;
+    position: relative;
+    width: 100%;
+    list-style: none;
+    padding: 0
+}
+
+.product-gallery .product-gallery-preview>li {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.7s;
+    -o-transition: opacity 0.7s;
+    transition: opacity 0.7s
+}
+
+.product-gallery .product-gallery-preview>li>img {
+    display: block;
+    width: 100%
+}
+
+.product-gallery .product-gallery-preview>li.current {
+    position: relative;
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.product-gallery .product-gallery-thumblist {
+    position: absolute;
+    top: 48%;
+    right: -95px;
+    width: 80px;
+    list-style: none;
+    padding: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.product-gallery .product-gallery-thumblist>li {
+    display: block;
+    padding: 16px 0
+}
+
+.product-gallery .product-gallery-thumblist>li>a {
+    display: block;
+    text-decoration: none;
+    opacity: .35;
+    filter: alpha(opacity=35);
+    -webkit-transition: opacity 0.35s;
+    -o-transition: opacity 0.35s;
+    transition: opacity 0.35s
+}
+
+.product-gallery .product-gallery-thumblist>li.active>a {
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+@media screen and (max-width: 1100px) {
+    .product-gallery .product-gallery-thumblist {
+        width:100%;
+        text-align: center;
+        margin-bottom: 0;
+        position: relative;
+        top: auto;
+        right: auto;
+        padding-top: 24px;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none
+    }
+
+    .product-gallery .product-gallery-thumblist>li {
+        display: inline-block;
+        padding: 0 16px;
+        padding-bottom: 12px
+    }
+
+    .product-gallery .product-gallery-thumblist>li>a {
+        width: 80px
+    }
+}
+.shop-bar {
+    display: table;
+    width: 100%;
+    padding-bottom: 36px
+}
+
+.shop-bar>.column {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%
+}
+
+.shop-bar>.column:first-child {
+    padding-right: 20px
+}
+
+.shop-bar .search-box {
+    display: inline-block
+}
+
+@media screen and (max-width: 480px) {
+    .shop-bar>.column {
+        display:block;
+        width: 100%
+    }
+
+    .shop-bar>.column:first-child {
+        padding-right: 0;
+        padding-bottom: 15px
+    }
+}
+/*
+.col-sm-8,
+.col-md-9,
+.col-sm-4,
+.col-md-3,
+.col-sm-6,
+.col-md-4{
+	min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+*/
+@media (min-width: 768px){
+	.col-sm-8 {
+	    width: 66.66666667%;
+	    float: left;
+	}
+	.col-sm-4 {
+    	width: 33.33333333%;
+    	float: left;
+	}
+	.col-sm-6 {
+    	width: 50%;
+    	float: left;
+	}
+}
+@media (min-width: 992px){
+	.col-md-9 {
+	    width: 75%;
+	    float: left;
+	}
+	.col-md-3{
+		width:25%;
+		float: left;
+	}
+	.col-md-4 {
+    	width: 33.33333333%;
+    	float: left;
+	}
+}
